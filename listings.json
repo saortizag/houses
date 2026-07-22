@@ -1,0 +1,2583 @@
+[
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-las-acasias-2-habitaciones-2-banos-1-garajes/MC3625710?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 3600000,
+    "area_m2": 65.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "BELMIRA ACACIAS",
+    "administracion": null,
+    "estrato": 4,
+    "codigo": "MC3625710",
+    "latitude": 4.7207375,
+    "longitude": -74.030785,
+    "nearby_points": [
+      {
+        "name": "Panimi",
+        "address": "sin dirección"
+      },
+      {
+        "name": "Apachos J I",
+        "address": "sin dirección"
+      },
+      {
+        "name": "Porteria - Los Saucos",
+        "address": "sin dirección"
+      },
+      {
+        "name": "Bbva - Calle 140",
+        "address": "calle 140"
+      },
+      {
+        "name": "Cedro Narváez",
+        "address": "sin dirección"
+      },
+      {
+        "name": "Parroquia San Manuel Morales",
+        "address": "cl 141 7b-47"
+      }
+    ],
+    "total_price": 3600000,
+    "price_per_m2": 55384.62
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-ciudad-salitre-sur-oriental-1-habitaciones-1-banos/MC6301899?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 2870000,
+    "area_m2": 42.0,
+    "bathrooms": 1,
+    "parking_spots": 0,
+    "barrio": "CIUDAD SALITRE   Zona Urbana",
+    "administracion": 330000,
+    "estrato": 4,
+    "codigo": "MC6301899",
+    "latitude": 4.645524,
+    "longitude": -74.109505,
+    "nearby_points": [
+      {
+        "name": "Metro Express Ciudad Salitre",
+        "address": "ak 68 # 22 - 21"
+      },
+      {
+        "name": "Continautos - Avenida Carrera 68 23-71",
+        "address": "avenida carrera 68 23-71"
+      },
+      {
+        "name": "Dian Fontibon",
+        "address": "kr 68 19-81"
+      },
+      {
+        "name": "Davivienda - Calle 20",
+        "address": "calle 20"
+      },
+      {
+        "name": "Estación 13 - Carrera 68",
+        "address": "sin dirección"
+      },
+      {
+        "name": "Av. Esperanza",
+        "address": "sin dirección"
+      }
+    ],
+    "total_price": 3200000,
+    "price_per_m2": 76190.48
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-bolivia-5-habitaciones-3-banos-1-garajes/MC6863292?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 4400000,
+    "area_m2": 160.0,
+    "bathrooms": 3,
+    "parking_spots": 1,
+    "barrio": "BOLIVIA   Zona Urbana",
+    "administracion": null,
+    "estrato": 3,
+    "codigo": "MC6863292",
+    "latitude": 4.717335,
+    "longitude": -74.11472,
+    "nearby_points": [
+      {
+        "name": "El Rey Del Pollo - Carrera 109a",
+        "address": "sin dirección"
+      },
+      {
+        "name": "Mercados Luzvy",
+        "address": "sin dirección"
+      },
+      {
+        "name": "Farmacia Alle",
+        "address": "cl 82 # 103 d - 37 lc 1"
+      },
+      {
+        "name": "Colegio Psicopedagógico Bolivia",
+        "address": "sin dirección"
+      },
+      {
+        "name": "Centro Médico Ciudadela Colsubsidio",
+        "address": "sin dirección"
+      },
+      {
+        "name": "Urb. Terraza De San Antonio - Carrera 104",
+        "address": "sin dirección"
+      }
+    ],
+    "total_price": 4400000,
+    "price_per_m2": 27500.0
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-pradera-norte-3-habitaciones-2-banos-2-garajes/MC6809516?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 3300000,
+    "area_m2": 92.6,
+    "bathrooms": 2,
+    "parking_spots": 2,
+    "barrio": "LA PRADERA NORTE   Zona Urbana",
+    "administracion": null,
+    "estrato": 4,
+    "codigo": "MC6809516",
+    "latitude": 4.7465005,
+    "longitude": -74.03316,
+    "nearby_points": [
+      {
+        "name": "Coffe La Salle",
+        "address": "sin dirección"
+      },
+      {
+        "name": "Fruvar - Avenida Laureano Gomez - Carrera 9",
+        "address": "avenida laureano gomez - carrera 9"
+      },
+      {
+        "name": "Arte Y Belleza - Carrera 8h",
+        "address": "carrera 8h"
+      },
+      {
+        "name": "Comcel - Carrera 13a",
+        "address": "carrera 13a"
+      },
+      {
+        "name": "Biblioteca Publica Centro Comunitario Simon Bolivar",
+        "address": "cl 165 14-71 barrio servita"
+      },
+      {
+        "name": "Clinica Renal",
+        "address": "cl 168 14b-45"
+      }
+    ],
+    "total_price": 3300000,
+    "price_per_m2": 35637.15
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chapinero-norte-1-habitaciones-2-banos-1-garajes/MC6812208?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 3450000,
+    "area_m2": 54.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "QUINTA CAMACHO   Zona Urbana",
+    "administracion": null,
+    "estrato": 4,
+    "codigo": "MC6812208",
+    "latitude": 4.650062,
+    "longitude": -74.05904,
+    "nearby_points": [
+      {
+        "name": "La Tortata",
+        "address": "sin dirección"
+      },
+      {
+        "name": "Maldini",
+        "address": "sin dirección"
+      },
+      {
+        "name": "La Pelu 2",
+        "address": "avenida carrera 7"
+      },
+      {
+        "name": "Fiduciaria Bogotá",
+        "address": "avenida carrera 7"
+      },
+      {
+        "name": "Verona",
+        "address": "sin dirección"
+      },
+      {
+        "name": "Chapinero Norte - Avenida Carrera 7",
+        "address": "sin dirección"
+      }
+    ],
+    "total_price": 3450000,
+    "price_per_m2": 63888.89
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-ciudad-salitre-sur-oriental-2-habitaciones-2-banos/MC6301898?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 3436000,
+    "area_m2": 60.0,
+    "bathrooms": 2,
+    "parking_spots": 0,
+    "barrio": "CIUDAD SALITRE   Zona Urbana"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-gilmar-colina-3-habitaciones-1-banos/MC377316?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 1800000,
+    "area_m2": 52.0,
+    "bathrooms": 1,
+    "parking_spots": 0,
+    "barrio": "gilmar colina"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-usaquen-3-habitaciones-3-banos-3-garajes/2266-M6085915?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 13000000,
+    "area_m2": 220.0,
+    "bathrooms": 3,
+    "parking_spots": 3,
+    "barrio": "Usaquen"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-la-carolina-edif-fontainebleau-vecinos-caracol-3-habitaciones-5-banos-3-garajes/MC5621754?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 12000000,
+    "area_m2": 240.0,
+    "bathrooms": 5,
+    "parking_spots": 3,
+    "barrio": "BARRIO LA CAROLINA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-4-habitaciones-5-banos-2-garajes/MC6827251?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 20000000,
+    "area_m2": 226.0,
+    "bathrooms": 5,
+    "parking_spots": 2,
+    "barrio": "CHICO   VIRREY   Zona Urbana"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-bellavista-1-habitaciones-1-banos-2-garajes/21585-M6879336?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 5100000,
+    "area_m2": 75.0,
+    "bathrooms": 1,
+    "parking_spots": 2,
+    "barrio": "LAS ROSALES"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-pardo-rubio-3-habitaciones-3-banos-2-garajes/4274-M6586626?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 7220000,
+    "area_m2": 106.0,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "CHAPINERO ALTO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-antiguo-country-edif-virrey-i-y-ii-1-habitaciones-2-banos-1-garajes/MC2356910?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 3200000,
+    "area_m2": 56.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "CHICO EL VIRREY   Chicó"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-3-habitaciones-4-banos-2-garajes/22276-M6686795?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 15000000,
+    "area_m2": 163.0,
+    "bathrooms": 4,
+    "parking_spots": 2,
+    "barrio": "chico reservado (mcd)"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-industrial-centenario-2-habitaciones-2-banos/MC6866425?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 1900000,
+    "area_m2": 46.0,
+    "bathrooms": 2,
+    "parking_spots": 0,
+    "barrio": "INDUSTRIAL CENTENARIO   Puente Aranda"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-millan-3-habitaciones-3-banos-2-garajes/13436-M6793150?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 3500000,
+    "area_m2": 88.0,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "BARRANCAS"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-cerros-de-santa-barbara-3-habitaciones-5-banos-4-garajes/5586-M6786287?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 23400000,
+    "area_m2": 333.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "CERROS DE LOS ALPES"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-san-jose-de-bavaria-4-habitaciones-4-banos-3-garajes/3604-M6795082?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 13000000,
+    "area_m2": 400.0,
+    "bathrooms": 4,
+    "parking_spots": 3,
+    "barrio": "SAN JOSE BAVARIA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-bella-suiza-3-habitaciones-2-banos-2-garajes/3340-M6586210?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 4200000,
+    "area_m2": 132.0,
+    "bathrooms": 2,
+    "parking_spots": 2,
+    "barrio": "BELLA SUIZA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-provenza-4-habitaciones-5-banos-3-garajes/21414-M6329093?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 8500000,
+    "area_m2": 209.0,
+    "bathrooms": 5,
+    "parking_spots": 3,
+    "barrio": "Provenza"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-samper-2-habitaciones-2-banos-1-garajes/21662-M6784122?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 4900000,
+    "area_m2": 101.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "centro internacional bogota"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-lisboa-3-habitaciones-5-banos-2-garajes/5340-M6602654?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 5500000,
+    "area_m2": 124.0,
+    "bathrooms": 5,
+    "parking_spots": 2,
+    "barrio": "Lisboa"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-san-jose-de-bavaria-4-habitaciones-4-banos-2-garajes/3604-M6791595?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 13000000,
+    "area_m2": 400.0,
+    "bathrooms": 4,
+    "parking_spots": 2,
+    "barrio": "SAN JOSE BAVARIA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-bellavista-4-habitaciones-5-banos-2-garajes/3664-M6604701?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 21000000,
+    "area_m2": 290.0,
+    "bathrooms": 5,
+    "parking_spots": 2,
+    "barrio": "Rosales"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-la-cabrera-3-habitaciones-5-banos-3-garajes/3664-M6709452?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 16000000,
+    "area_m2": 270.0,
+    "bathrooms": 5,
+    "parking_spots": 3,
+    "barrio": "Cabrera"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-bella-suiza-2-habitaciones-4-banos-2-garajes/23236-M6879585?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 9800000,
+    "area_m2": 206.0,
+    "bathrooms": 4,
+    "parking_spots": 2,
+    "barrio": "Bella Suiza"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-norte-et-iii-3-habitaciones-5-banos-3-garajes/10999-M6127689?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 29000000,
+    "area_m2": 380.0,
+    "bathrooms": 5,
+    "parking_spots": 3,
+    "barrio": "CHICO NORTE II SECTOR"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-sabanalarga-3-habitaciones-3-banos-2-garajes/21619-M6867890?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 15500000,
+    "area_m2": 168.0,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "La Carolina"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-cabrera-3-habitaciones-4-banos-4-garajes/19579-M6732931?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 33000000,
+    "area_m2": 428.31,
+    "bathrooms": 4,
+    "parking_spots": 4,
+    "barrio": "Cabrera"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-san-jose-de-bavaria-4-habitaciones-4-banos-3-garajes/3604-M6794998?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 15000000,
+    "area_m2": 400.0,
+    "bathrooms": 4,
+    "parking_spots": 3,
+    "barrio": "SAN JOSE BAVARIA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-los-cedritos-1-habitaciones-2-banos-1-garajes/21597-M6703687?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 3200000,
+    "area_m2": 51.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "LOS CEDROS"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-quinta-camacho-5-habitaciones-5-banos-2-garajes/22147-M6434023?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 15000000,
+    "area_m2": 380.0,
+    "bathrooms": 5,
+    "parking_spots": 2,
+    "barrio": "QUINTA CAMACHO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/venta-apartamento-bogota-santa-barbara-alta-3-habitaciones-5-banos-4-garajes/836-M2191965?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 4000000000,
+    "area_m2": 420.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "SANTA BARBARA ALTA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-el-seminario-4-habitaciones-5-banos-4-garajes/3774-M6338858?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 40000000,
+    "area_m2": 740.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "CHICO ALTO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-san-jose-de-bavaria-4-habitaciones-4-banos-3-garajes/3604-M6791623?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 15000000,
+    "area_m2": 400.0,
+    "bathrooms": 4,
+    "parking_spots": 3,
+    "barrio": "SAN JOSE BAVARIA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-iberia-4-habitaciones-4-banos-2-garajes/13436-M6545920?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 8000000,
+    "area_m2": 195.0,
+    "bathrooms": 4,
+    "parking_spots": 2,
+    "barrio": "GRATAMIRA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-norte-et-ii-3-habitaciones-5-banos-4-garajes/2501-M6795031?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 30000000,
+    "area_m2": 350.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "CHICO RESERVADO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-chico-norte-et.-iii-5-habitaciones-5-banos-2-garajes/16649-M5044930?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 37000000,
+    "area_m2": 860.0,
+    "bathrooms": 5,
+    "parking_spots": 2,
+    "barrio": "PARQUE EL CHICO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-refugio-2-habitaciones-4-banos-2-garajes/2147-M6302834?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 9500000,
+    "area_m2": 140.0,
+    "bathrooms": 4,
+    "parking_spots": 2,
+    "barrio": "Refugio"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-santa-teresa-norte-2-habitaciones-2-banos-1-garajes/15738-M6766140?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 2450000,
+    "area_m2": 55.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "Santa Teresa Norte"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-santa-barbara-alta-1-habitaciones-1-banos/16916-M6452874?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 2418000,
+    "area_m2": 53.18,
+    "bathrooms": 1,
+    "parking_spots": 0,
+    "barrio": "SANTA BARBARA ALTA USAQUEN"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-santa-barbara-central-3-habitaciones-3-banos-2-garajes/10558-M2523219?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 4500000,
+    "area_m2": 128.0,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "SANTA BARBARA MULTICENTRO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-norte-et.-ii-1-habitaciones-2-banos-2-garajes/12494-M5738764?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 7500000,
+    "area_m2": 69.34,
+    "bathrooms": 2,
+    "parking_spots": 2,
+    "barrio": "CHICO RESERVADO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-gratamira-3-habitaciones-3-banos-3-garajes/16913-M6020289?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 7350000,
+    "area_m2": 164.0,
+    "bathrooms": 3,
+    "parking_spots": 3,
+    "barrio": "Gratamira"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-santa-rosa-3-habitaciones-3-banos-3-garajes/18634-M6386249?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 7000000,
+    "area_m2": 203.0,
+    "bathrooms": 3,
+    "parking_spots": 3,
+    "barrio": "MORATO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-el-retiro-3-habitaciones-5-banos-3-garajes/374-M6793674?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 20500000,
+    "area_m2": 257.41,
+    "bathrooms": 5,
+    "parking_spots": 3,
+    "barrio": "RETIRO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-bosque-izquierdo-1-habitaciones-2-banos-1-garajes/111-M6880613?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 2800000,
+    "area_m2": 32.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "LA MACARENA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-el-rosario-1-habitaciones-1-banos/14388-M5309081?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 2800000,
+    "area_m2": 30.0,
+    "bathrooms": 1,
+    "parking_spots": 0,
+    "barrio": "el rosario barrios unidos"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-la-esperanza-norte-4-habitaciones-4-banos-4-garajes/3038-M6793434?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 13500000,
+    "area_m2": 300.0,
+    "bathrooms": 4,
+    "parking_spots": 4,
+    "barrio": "CIUDAD SALITRE NAVARRA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-centro-norte-usaquen-4-habitaciones-3-banos-2-garajes/18297-M6877933?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 11000000,
+    "area_m2": 158.82,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "SANTA BARBARA ALTA USAQUEN"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-nueva-castilla-et-ii-2-habitaciones-2-banos/660-M6880577?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 1277000,
+    "area_m2": 45.0,
+    "bathrooms": 2,
+    "parking_spots": 0,
+    "barrio": "NUEVA CASTILLA TINTAL"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-ingemar-3-habitaciones-3-banos-2-garajes/16305-M6704876?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 7000000,
+    "area_m2": 145.0,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "INGEMAR"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-la-esperanza-norte-4-habitaciones-4-banos-4-garajes/3038-M6793269?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 13500000,
+    "area_m2": 300.0,
+    "bathrooms": 4,
+    "parking_spots": 4,
+    "barrio": "CIUDAD SALITRE RESERVADO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-la-acanada-3-habitaciones-4-banos-2-garajes/2162-M6795725?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 7500000,
+    "area_m2": 170.0,
+    "bathrooms": 4,
+    "parking_spots": 2,
+    "barrio": "BOSQUES DE LA CAÑADA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-cantalejo-3-habitaciones-2-banos-2-garajes/3155-M6498358?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 4800000,
+    "area_m2": 97.0,
+    "bathrooms": 2,
+    "parking_spots": 2,
+    "barrio": "alejandria mazuren"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-ciudad-salitre-occidental-3-habitaciones-2-banos-1-garajes/13374-M6876183?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 3663000,
+    "area_m2": 130.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "Occidental"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-cerros-de-santa-barbara-4-habitaciones-5-banos-3-garajes/17016-M6880159?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 18000000,
+    "area_m2": 293.0,
+    "bathrooms": 5,
+    "parking_spots": 3,
+    "barrio": "USAQUEN"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-casa-blanca-4-habitaciones-5-banos-4-garajes/533-M6717077?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 16000000,
+    "area_m2": 380.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "HACIENDA SAN SIMON"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-la-carolina-2-habitaciones-3-banos-2-garajes/17527-M6864958?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 5700000,
+    "area_m2": 121.0,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "LA CAROLINA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-la-cabrera-3-habitaciones-4-banos-3-garajes/MC6736749?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 16000000,
+    "area_m2": 219.0,
+    "bathrooms": 4,
+    "parking_spots": 3,
+    "barrio": "LA CABRERA RESERVADO   Zona Urbana"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-cantalejo-3-habitaciones-3-banos-2-garajes/MC6680322?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 4500000,
+    "area_m2": 92.0,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "CANTALEJO   Colina y Alrededores"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-polo-club-1-habitaciones-1-banos-1-garajes/MC6866731?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 4000000,
+    "area_m2": 35.0,
+    "bathrooms": 1,
+    "parking_spots": 1,
+    "barrio": "POLO CLUB   Country"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-mazuren-3-habitaciones-3-banos-1-garajes/MC6864792?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F",
+    "price": 3675000,
+    "area_m2": 99.0,
+    "bathrooms": 3,
+    "parking_spots": 1,
+    "barrio": "MAZUREN 17   Colina y Alrededores"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-muequeta-2-habitaciones-1-banos/MC6094225?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3000000,
+    "area_m2": 78.0,
+    "bathrooms": 1,
+    "parking_spots": 0,
+    "barrio": "MUEQUETA   Chapinero"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-belalcazar-2-habitaciones-2-banos-1-garajes/MC6862464?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 2700000,
+    "area_m2": 54.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "BELALCAZAR   Zona Urbana"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-las-nieves-1-habitaciones-1-banos-1-garajes/MC6866077?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 1800000,
+    "area_m2": 31.5,
+    "bathrooms": 1,
+    "parking_spots": 1,
+    "barrio": "LAS NIEVES   Centro y Zona Colonial"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-cjr-capital-lofts-1-habitaciones-2-banos-1-garajes/MC5852728?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 2791000,
+    "area_m2": 40.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "RINCON DEL CHICO   Chicó"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-industrial-centenario-1-habitaciones-1-banos/MC6796057?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 1600000,
+    "area_m2": 30.0,
+    "bathrooms": 1,
+    "parking_spots": 0,
+    "barrio": "INDUSTRIAL CENTENARIO   Puente Aranda"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-cr.-el-roble-2-habitaciones-1-banos-1-garajes/MC6878500?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 1800000,
+    "area_m2": 42.0,
+    "bathrooms": 1,
+    "parking_spots": 1,
+    "barrio": "GUAYMARAL   Zona Urbana"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-cjr-equilibrio-1-habitaciones-1-banos-1-garajes/MC4982209?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3450000,
+    "area_m2": 42.51,
+    "bathrooms": 1,
+    "parking_spots": 1,
+    "barrio": "CHICO SANTA BARBARA   Chicó"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chapinero-central-1-habitaciones-2-banos-1-garajes/MC2268779?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 2500000,
+    "area_m2": 47.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "Chapinero"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-el-espartillal-3-habitaciones-4-banos/MC6848267?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 7231000,
+    "area_m2": 104.0,
+    "bathrooms": 4,
+    "parking_spots": 0,
+    "barrio": "CHAPINERO ATLANTIS   Zona Urbana"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-norte-et.-iii-1-habitaciones-2-banos-1-garajes/MC6845269?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 4500000,
+    "area_m2": 67.89,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "CHICO NORTE III   Zona Urbana"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-1-habitaciones-2-banos-2-garajes/16994-M5581682?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 7800000,
+    "area_m2": 102.0,
+    "bathrooms": 2,
+    "parking_spots": 2,
+    "barrio": "PARQUE DEL VIRREY"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-san-felipe-3-habitaciones-2-banos/MC6823127?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 2600000,
+    "area_m2": 104.0,
+    "bathrooms": 2,
+    "parking_spots": 0,
+    "barrio": "SAN FELIPE   Country"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-samper-1-habitaciones-2-banos-1-garajes/MC6870417?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3300000,
+    "area_m2": 53.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "SAMPER   Centro Internacional"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-santa-barbara-alta-3-habitaciones-5-banos-4-garajes/2671-M5836773?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 30000000,
+    "area_m2": 400.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "Santa Barbara Alta"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-niza-3-habitaciones-4-banos-2-garajes/2671-M6879915?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 11000000,
+    "area_m2": 230.0,
+    "bathrooms": 4,
+    "parking_spots": 2,
+    "barrio": "Niza"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-na-4-habitaciones-5-banos-4-garajes/3664-M5994140?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 47000000,
+    "area_m2": 465.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "Rosales"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-la-cabrera-3-habitaciones-4-banos-3-garajes/2671-M6649160?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 32000000,
+    "area_m2": 243.0,
+    "bathrooms": 4,
+    "parking_spots": 3,
+    "barrio": "La Cabrera"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-la-cabrera-4-habitaciones-5-banos-3-garajes/2671-M6335064?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 16000000,
+    "area_m2": 388.0,
+    "bathrooms": 5,
+    "parking_spots": 3,
+    "barrio": "La Cabrera"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-navarra-3-habitaciones-4-banos-3-garajes/11079-M6767802?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 16000000,
+    "area_m2": 360.0,
+    "bathrooms": 4,
+    "parking_spots": 3,
+    "barrio": "Chico Navarra"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-bellavista-3-habitaciones-5-banos-4-garajes/19579-M5812603?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 44000000,
+    "area_m2": 381.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "Rosales"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-la-porciuncula-5-habitaciones-5-banos-3-garajes/5340-M5593204?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 20000000,
+    "area_m2": 420.0,
+    "bathrooms": 5,
+    "parking_spots": 3,
+    "barrio": "Los Rosales"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-bosques-del-marques-5-habitaciones-5-banos-4-garajes/2671-M6762556?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 32500000,
+    "area_m2": 500.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "Bosques Del Marques"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-virrey-3-habitaciones-5-banos-4-garajes/19579-M6578876?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 14610000,
+    "area_m2": 204.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "Virrey"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-guaymaral-4-habitaciones-5-banos-4-garajes/21414-M6506433?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 12000000,
+    "area_m2": 650.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "Guaymaral"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-santa-ana-oriental-4-habitaciones-5-banos-4-garajes/3553-M4979456?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 30000000,
+    "area_m2": 620.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "USAQUEN"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-cerros-de-los-alpes-4-habitaciones-4-banos-4-garajes/21542-M6189716?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 37900000,
+    "area_m2": 520.0,
+    "bathrooms": 4,
+    "parking_spots": 4,
+    "barrio": "Cerros De Los Alpes"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-3-habitaciones-5-banos-3-garajes/19579-M5855049?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 15998000,
+    "area_m2": 220.0,
+    "bathrooms": 5,
+    "parking_spots": 3,
+    "barrio": "Cabrera"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-el-refugio-5-habitaciones-4-banos-2-garajes/3553-M4813894?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 20000000,
+    "area_m2": 600.0,
+    "bathrooms": 4,
+    "parking_spots": 2,
+    "barrio": "CHAPINERO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-sotileza-4-habitaciones-4-banos-4-garajes/2671-M6775784?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 5947000,
+    "area_m2": 300.0,
+    "bathrooms": 4,
+    "parking_spots": 4,
+    "barrio": "Sotileza"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-rincon-del-chico-1-habitaciones-2-banos-1-garajes/23122-M6876233?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 5000000,
+    "area_m2": 40.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "RINCON DEL CHICO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-los-olivos-1-habitaciones-1-banos/23049-M6873324?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 2500000,
+    "area_m2": 30.0,
+    "bathrooms": 1,
+    "parking_spots": 0,
+    "barrio": "CHAPINERO ALTO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-norte-3-habitaciones-3-banos-1-garajes/22225-M6789186?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 9500000,
+    "area_m2": 192.0,
+    "bathrooms": 3,
+    "parking_spots": 1,
+    "barrio": "CHICO NORTE"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-salitre-nor-occidental-2-habitaciones-2-banos-1-garajes/14953-M6862187?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3950000,
+    "area_m2": 60.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "Salitre Nor Occidental"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-la-alameda-170-3-habitaciones-2-banos-1-garajes/5340-M5402534?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 2600000,
+    "area_m2": 61.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "La Alameda 170"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-quinta-camacho-5-habitaciones-5-banos-1-garajes/19579-M5778056?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 18000000,
+    "area_m2": 670.0,
+    "bathrooms": 5,
+    "parking_spots": 1,
+    "barrio": "Quinta Camacho"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-la-merced-4-habitaciones-5-banos-3-garajes/2639-M6730520?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 13500000,
+    "area_m2": 355.0,
+    "bathrooms": 5,
+    "parking_spots": 3,
+    "barrio": "CHICO ALTO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-casa-blanca-4-habitaciones-5-banos-4-garajes/14356-M6768792?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 15000000,
+    "area_m2": 460.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "San Simon"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-santa-cecilia-3-habitaciones-3-banos-2-garajes/16819-M6812544?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 5900000,
+    "area_m2": 180.0,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "MODELIA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-4-habitaciones-3-banos-2-garajes/873-M6695811?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 8000000,
+    "area_m2": 170.0,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "PARQUE DEL VIRREY"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-molinos-del-norte-4-habitaciones-5-banos-3-garajes/16437-M6774811?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 14600000,
+    "area_m2": 320.0,
+    "bathrooms": 5,
+    "parking_spots": 3,
+    "barrio": "Molinos Del Norte"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-3-habitaciones-3-banos-2-garajes/17286-M6332122?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 11000000,
+    "area_m2": 300.0,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "LAS ROSALES"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-norte-1-habitaciones-2-banos-1-garajes/11569-M6676373?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 6800000,
+    "area_m2": 54.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "CHICO MUSEO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-san-jose-del-prado-3-habitaciones-5-banos-2-garajes/651-M6516321?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 7500000,
+    "area_m2": 140.0,
+    "bathrooms": 5,
+    "parking_spots": 2,
+    "barrio": "COLINA CAMPESTRE"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-molinos-norte-1-habitaciones-2-banos-2-garajes/10797-M4817849?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3100000,
+    "area_m2": 56.0,
+    "bathrooms": 2,
+    "parking_spots": 2,
+    "barrio": "MOLINOS DEL NORTE"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-santa-barbara-central-3-habitaciones-2-banos-1-garajes/12573-M6866602?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 4900000,
+    "area_m2": 125.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "SANTA BARBARA CENTRAL"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-calatayud-3-habitaciones-4-banos-4-garajes/4830-M6334014?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 10000000,
+    "area_m2": 260.0,
+    "bathrooms": 4,
+    "parking_spots": 4,
+    "barrio": "Calatayud"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-el-retiro-3-habitaciones-3-banos-3-garajes/800-M5698334?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 10000000,
+    "area_m2": 192.0,
+    "bathrooms": 3,
+    "parking_spots": 3,
+    "barrio": "EL RETIRO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-casa-blanca-suba-3-habitaciones-5-banos-2-garajes/4957-M6053944?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 7000000,
+    "area_m2": 285.0,
+    "bathrooms": 5,
+    "parking_spots": 2,
+    "barrio": "ALTOS DE CASA BLANCA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-norte-et-ii-3-habitaciones-3-banos-2-garajes/800-M6188649?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 12000000,
+    "area_m2": 150.0,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "CHICO NORTE"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-norte-3-habitaciones-3-banos-3-garajes/217-M6791662?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 17000000,
+    "area_m2": 240.0,
+    "bathrooms": 3,
+    "parking_spots": 3,
+    "barrio": "CHICO RESERVADO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-la-cabrera-3-habitaciones-5-banos-3-garajes/800-M5804164?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 18000000,
+    "area_m2": 220.0,
+    "bathrooms": 5,
+    "parking_spots": 3,
+    "barrio": "LA CABRERA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-san-felipe-5-habitaciones-5-banos-1-garajes/660-M6880496?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 7000000,
+    "area_m2": 120.0,
+    "bathrooms": 5,
+    "parking_spots": 1,
+    "barrio": "alcazares norte"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chapinero-central-1-habitaciones-1-banos/13374-M5806285?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 1967400,
+    "area_m2": 30.0,
+    "bathrooms": 1,
+    "parking_spots": 0,
+    "barrio": "CHAPINERO ALTO BOSQUE CALDERON"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-cjr-dos-torres-170-2-habitaciones-1-banos-1-garajes/726-M5652825?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 1900000,
+    "area_m2": 46.0,
+    "bathrooms": 1,
+    "parking_spots": 1,
+    "barrio": "CARDIO INFANTIL CLL 160 AV 19"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-lisboa-4-habitaciones-5-banos-3-garajes/19118-M6878884?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 11000000,
+    "area_m2": 242.0,
+    "bathrooms": 5,
+    "parking_spots": 3,
+    "barrio": "CEDRITOS BELMIRA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-casa-blanca-4-habitaciones-5-banos-4-garajes/10062-M4619165?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 12500000,
+    "area_m2": 357.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "SAN SIMON GUAYMARAL"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-norte-et.-iii-1-habitaciones-1-banos-1-garajes/533-M4741649?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 5500000,
+    "area_m2": 70.0,
+    "bathrooms": 1,
+    "parking_spots": 1,
+    "barrio": "CHICO NORTE III"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-norte-2-habitaciones-2-banos-2-garajes/19118-M6303727?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 5950000,
+    "area_m2": 98.0,
+    "bathrooms": 2,
+    "parking_spots": 2,
+    "barrio": "CHICO   VIRREY"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-norte-et.-iii-3-habitaciones-4-banos-4-garajes/MC6843485?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 10000000,
+    "area_m2": 180.0,
+    "bathrooms": 4,
+    "parking_spots": 4,
+    "barrio": "CHICO   Zona Urbana"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-conejera-4-habitaciones-5-banos-2-garajes/MC6782559?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 6000000,
+    "area_m2": 143.0,
+    "bathrooms": 5,
+    "parking_spots": 2,
+    "barrio": "CONEJERA   Guaymaral"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-la-calleja-1-habitaciones-2-banos-1-garajes/MC6730079?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3550000,
+    "area_m2": 48.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "CALLE JA   Zona Urbana"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-la-felicidad-2-habitaciones-1-banos/MC6873777?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 1800000,
+    "area_m2": 45.0,
+    "bathrooms": 1,
+    "parking_spots": 0,
+    "barrio": "CIUDADELA LA FELICIDAD   Zona Urbana"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-caobos-salazar-4-habitaciones-4-banos-2-garajes/MC6865048?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 7000000,
+    "area_m2": 170.0,
+    "bathrooms": 4,
+    "parking_spots": 2,
+    "barrio": "CEDRITOS   Zona Urbana"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-bosque-calderon-1-habitaciones-1-banos-1-garajes/MC6873961?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3000000,
+    "area_m2": 60.39,
+    "bathrooms": 1,
+    "parking_spots": 1,
+    "barrio": "BOSQUE CALDERON   Chapinero Alto"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-remanso-2-habitaciones-1-banos/MC2769920?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 1550000,
+    "area_m2": 60.0,
+    "bathrooms": 1,
+    "parking_spots": 0,
+    "barrio": "CIUDAD MONTES   Puente Aranda"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-santa-bibiana-1-habitaciones-2-banos-1-garajes/16994-M6870372?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3950000,
+    "area_m2": 61.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "SANTA BIBIANA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-norte-et.-ii-1-habitaciones-2-banos-2-garajes/MC6868094?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 5600000,
+    "area_m2": 60.0,
+    "bathrooms": 2,
+    "parking_spots": 2,
+    "barrio": "CHICO RESERVADO   Zona Urbana"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-san-martin-1-habitaciones-2-banos-1-garajes/MC6877355?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 2900000,
+    "area_m2": 54.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "SAN MARTIN   Centro Internacional"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-san-jose-3-habitaciones-1-banos/MC4153420?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 1400000,
+    "area_m2": 115.0,
+    "bathrooms": 1,
+    "parking_spots": 0,
+    "barrio": "EL SOSIEGO   Rafael Uribe Uribe Tunjuelito"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-la-veracruz-1-habitaciones-2-banos-1-garajes/MC6877298?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 2133450,
+    "area_m2": 58.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "LA VERACRUZ   Centro y Zona Colonial"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-barrancas-norte-2-habitaciones-2-banos/MC6694640?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 1790000,
+    "area_m2": 40.0,
+    "bathrooms": 2,
+    "parking_spots": 0,
+    "barrio": "SAN CRISTOBAL NORTE   Country"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-mochuelo-norte-3-habitaciones-4-banos-2-garajes/MC6854428?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 13500000,
+    "area_m2": 302.0,
+    "bathrooms": 4,
+    "parking_spots": 2,
+    "barrio": "SANTA BARBARA CENTRAL   Zona Urbana"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-santa-barbara-central-2-habitaciones-2-banos-1-garajes/23049-M6870272?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3900000,
+    "area_m2": 68.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "SANTA BARBARA CENTRAL"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-el-verbenal-1-habitaciones-1-banos/MC6871937?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 1050000,
+    "area_m2": 32.0,
+    "bathrooms": 1,
+    "parking_spots": 0,
+    "barrio": "EL VERBENAL   170 y Alredores"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-galerias-2-habitaciones-1-banos/16774-M6707662?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 1840000,
+    "area_m2": 38.0,
+    "bathrooms": 1,
+    "parking_spots": 0,
+    "barrio": "Galerias"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chapinero-norte-1-habitaciones-2-banos-1-garajes/MC6815391?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3450000,
+    "area_m2": 54.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "QUINTA CAMACHO   Zona Urbana"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-asd-3-habitaciones-2-banos-1-garajes/154-M6857415?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 2280000,
+    "area_m2": 68.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "NUEVA CASTILLA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-na-3-habitaciones-3-banos-2-garajes/11079-M6783668?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 8800000,
+    "area_m2": 250.0,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "Bosque De Pinos"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-san-patricio-5-habitaciones-5-banos-4-garajes/661-M6826466?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 16000000,
+    "area_m2": 510.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "San Patricio"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-santa-barbara-alta-3-habitaciones-5-banos-4-garajes/19579-M5684349?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 17000000,
+    "area_m2": 271.82,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "Santa Barbara"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-cabrera-3-habitaciones-3-banos-3-garajes/19579-M6775489?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 9500000,
+    "area_m2": 306.65,
+    "bathrooms": 3,
+    "parking_spots": 3,
+    "barrio": "Cabrera"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-mochuelo-norte-5-habitaciones-5-banos-3-garajes/17754-M6775300?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 14600000,
+    "area_m2": 390.0,
+    "bathrooms": 5,
+    "parking_spots": 3,
+    "barrio": "Mochuelo Norte"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-maria-cristina-3-habitaciones-4-banos-2-garajes/368-M6433261?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 24000000,
+    "area_m2": 270.0,
+    "bathrooms": 4,
+    "parking_spots": 2,
+    "barrio": "CHAPINERO ALTO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-rincon-de-la-valvanera-2-habitaciones-2-banos/19816-M6879001?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 1200000,
+    "area_m2": 42.0,
+    "bathrooms": 2,
+    "parking_spots": 0,
+    "barrio": "MADELENA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-salitre-2-habitaciones-2-banos-1-garajes/14953-M6750688?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3900000,
+    "area_m2": 69.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "Salitre"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-santa-barbara-oriental-5-habitaciones-5-banos-4-garajes/20264-M6771566?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 12645000,
+    "area_m2": 340.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "Santa Barbara Oriental"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-colina-campestre-3-habitaciones-4-banos-2-garajes/21191-M6759628?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 4800000,
+    "area_m2": 114.8,
+    "bathrooms": 4,
+    "parking_spots": 2,
+    "barrio": "Colina Campestre"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-el-plan-2-habitaciones-1-banos/3437-M6875682?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 1800000,
+    "area_m2": 35.0,
+    "bathrooms": 1,
+    "parking_spots": 0,
+    "barrio": "COLINA CAMPESTRE"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-bella-suiza-1-habitaciones-1-banos-1-garajes/5340-M6258424?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 2850000,
+    "area_m2": 60.0,
+    "bathrooms": 1,
+    "parking_spots": 1,
+    "barrio": "Bella Suiza"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-bosque-de-pinos-3-habitaciones-4-banos-3-garajes/2671-M6019993?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 18000000,
+    "area_m2": 350.0,
+    "bathrooms": 4,
+    "parking_spots": 3,
+    "barrio": "Bosque De Pinos"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-norte-2-habitaciones-2-banos-1-garajes/19579-M6863927?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 4200000,
+    "area_m2": 53.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "Chico Norte"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-los-rosales-3-habitaciones-4-banos-4-garajes/920-M6114318?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 33757000,
+    "area_m2": 435.09,
+    "bathrooms": 4,
+    "parking_spots": 4,
+    "barrio": "Los Rosales"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-bosque-medina-3-habitaciones-3-banos-2-garajes/2671-M6792581?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 8450000,
+    "area_m2": 211.0,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "Bosque Medina"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-santa-barbara-oriental-1-habitaciones-2-banos-2-garajes/20234-M6875438?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3550000,
+    "area_m2": 67.0,
+    "bathrooms": 2,
+    "parking_spots": 2,
+    "barrio": "Santa Barbara Oriental"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-casa-blanca-5-habitaciones-5-banos-4-garajes/10967-M5753729?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 11000000,
+    "area_m2": 425.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "Guaymaral"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-cerros-de-santa-barbara-4-habitaciones-5-banos-4-garajes/11079-M4757440?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 28000000,
+    "area_m2": 500.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "Cerros De Los Alpes"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-casa-blanca-3-habitaciones-3-banos-4-garajes/9859-M6423898?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 6700000,
+    "area_m2": 189.0,
+    "bathrooms": 3,
+    "parking_spots": 4,
+    "barrio": "GUAYMARAL"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-cerros-de-los-alpes-4-habitaciones-5-banos-4-garajes/11079-M6498901?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 42900000,
+    "area_m2": 526.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "Cerros De Los Alpes"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-la-carolina-3-habitaciones-3-banos-2-garajes/304-M6880451?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 8100000,
+    "area_m2": 170.0,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "La Carolina"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-chico-oriental-4-habitaciones-5-banos-3-garajes/21542-M6189661?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 32000000,
+    "area_m2": 962.0,
+    "bathrooms": 5,
+    "parking_spots": 3,
+    "barrio": "Chico Oriental"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-veramonte-colina-campestre-2-habitaciones-1-banos/16108-M6580565?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 2000000,
+    "area_m2": 37.41,
+    "bathrooms": 1,
+    "parking_spots": 0,
+    "barrio": "Veramonte Colina Campestre"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-emaus-4-habitaciones-4-banos-4-garajes/9890-M3679716?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 10300000,
+    "area_m2": 256.0,
+    "bathrooms": 4,
+    "parking_spots": 4,
+    "barrio": "Roasales bella vista"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-la-carolina-3-habitaciones-5-banos-2-garajes/873-M6697731?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 7500009,
+    "area_m2": 157.0,
+    "bathrooms": 5,
+    "parking_spots": 2,
+    "barrio": "LA CAROLINA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-norte-3-habitaciones-3-banos-2-garajes/16577-M6783740?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 14000000,
+    "area_m2": 136.0,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "Chico Norte"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-torremolinos-3-habitaciones-2-banos-1-garajes/18015-M6880409?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 1700000,
+    "area_m2": 59.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "EL TEJAR"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-la-calleja-1-habitaciones-2-banos-2-garajes/10797-M6669797?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3133900,
+    "area_m2": 52.0,
+    "bathrooms": 2,
+    "parking_spots": 2,
+    "barrio": "LA CALLEJA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-la-carolina-3-habitaciones-4-banos-2-garajes/10797-M6627294?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 7000000,
+    "area_m2": 230.0,
+    "bathrooms": 4,
+    "parking_spots": 2,
+    "barrio": "LA CAROLINA COUNTRY"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-torca-4-habitaciones-5-banos-4-garajes/873-M6422751?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 12500000,
+    "area_m2": 358.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "TORCA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-sabanalarga-3-habitaciones-4-banos-2-garajes/3395-M6081817?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 9800000,
+    "area_m2": 200.0,
+    "bathrooms": 4,
+    "parking_spots": 2,
+    "barrio": "LA CAROLINA COUNTRY"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-la-tebaida-5-habitaciones-5-banos-2-garajes/778-M6519798?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 12000000,
+    "area_m2": 590.0,
+    "bathrooms": 5,
+    "parking_spots": 2,
+    "barrio": "La Tebaida"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-bellavista-3-habitaciones-3-banos-2-garajes/3072-M6611197?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 22000000,
+    "area_m2": 214.0,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "LAS ROSALES"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-cjr-gran-reserva-de-navarra-4-habitaciones-5-banos-4-garajes/3038-M5370747?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 12500000,
+    "area_m2": 300.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "CIUDAD SALITRE NAVARRA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-cjr-gran-reserva-de-navarra-4-habitaciones-5-banos-4-garajes/3038-M5408878?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 12500000,
+    "area_m2": 300.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "CIUDAD SALITRE NAVARRA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-2-habitaciones-3-banos-1-garajes/2162-M6702799?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 5681000,
+    "area_m2": 120.0,
+    "bathrooms": 3,
+    "parking_spots": 1,
+    "barrio": "CHICO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-3-habitaciones-4-banos-3-garajes/800-M5853149?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 16000000,
+    "area_m2": 220.0,
+    "bathrooms": 4,
+    "parking_spots": 3,
+    "barrio": "CABRERA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-2-habitaciones-3-banos-1-garajes/2162-M6702817?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 5681000,
+    "area_m2": 120.0,
+    "bathrooms": 3,
+    "parking_spots": 1,
+    "barrio": "CHICO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-la-esperanza-norte-4-habitaciones-4-banos-4-garajes/3038-M6790310?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 13500000,
+    "area_m2": 300.0,
+    "bathrooms": 4,
+    "parking_spots": 4,
+    "barrio": "CIUDAD SALITRE"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-marly-1-habitaciones-1-banos/13374-M3083480?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 2000000,
+    "area_m2": 35.0,
+    "bathrooms": 1,
+    "parking_spots": 0,
+    "barrio": "CHAPINERO ALTO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-norte-et-iii-3-habitaciones-3-banos-2-garajes/16764-M6418760?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 7000000,
+    "area_m2": 163.39,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "Norte"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-montevideo-2-habitaciones-2-banos-1-garajes/2821-M6878115?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3550000,
+    "area_m2": 65.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "CIUADAD SALITRE"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-norte-et-iii-3-habitaciones-4-banos-3-garajes/19118-M6878802?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 8800000,
+    "area_m2": 160.0,
+    "bathrooms": 4,
+    "parking_spots": 3,
+    "barrio": "CHICO NORTE III SECTOR CHICO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-los-rosales-3-habitaciones-4-banos-4-garajes/13439-M5033456?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 45000000,
+    "area_m2": 538.11,
+    "bathrooms": 4,
+    "parking_spots": 4,
+    "barrio": "Los Rosales"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-mazuren-3-habitaciones-2-banos-1-garajes/17153-M6740941?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 2500000,
+    "area_m2": 64.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "MAZUREN COLINA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-ciudad-salitre-sur-oriental-2-habitaciones-2-banos-1-garajes/MC4332503?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3700000,
+    "area_m2": 90.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "CIUDAD SALITRE ORIENTAL"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-norte-1-habitaciones-1-banos/MC6844670?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3000000,
+    "area_m2": 13.6,
+    "bathrooms": 1,
+    "parking_spots": 0,
+    "barrio": "CHICO NORTE   Zona Urbana"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-norte-et.-iii-1-habitaciones-2-banos-1-garajes/MC6710241?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 4500000,
+    "area_m2": 54.7,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "CHICO NORTE CHICO   Zona Urbana"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-bella-suiza-1-habitaciones-2-banos-1-garajes/MC2123623?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 2500000,
+    "area_m2": 50.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "BELLA SUIZA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-norte-et-ii-1-habitaciones-2-banos-2-garajes/2559-M6637976?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 5800000,
+    "area_m2": 57.0,
+    "bathrooms": 2,
+    "parking_spots": 2,
+    "barrio": "CHICO RESERVADO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-2-habitaciones-3-banos-2-garajes/2559-M6406151?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 7000000,
+    "area_m2": 110.0,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "EL VIRREY"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-cedro-salazar-2-habitaciones-2-banos-1-garajes/MC6339134?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 2490000,
+    "area_m2": 65.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "CEDRITOS   Cedritos"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-barrios-unidos-5-habitaciones-4-banos-2-garajes/22825-M6685941?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 5500000,
+    "area_m2": 189.0,
+    "bathrooms": 4,
+    "parking_spots": 2,
+    "barrio": "Barrios Unidos"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-la-esperanza-norte-2-habitaciones-2-banos-1-garajes/MC5959290?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3800000,
+    "area_m2": 70.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "Salitre Plaza"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-cedritos-3-habitaciones-3-banos-2-garajes/MC6864105?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3250000,
+    "area_m2": 90.0,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "CEDRITOS   Zona Urbana"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-portales-del-norte-3-habitaciones-2-banos-1-garajes/MC6730940?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 2600000,
+    "area_m2": 75.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "COLINA CAMPESTRE   Zona Urbana"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-niza-4-habitaciones-5-banos-4-garajes/18942-M6871807?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 15000000,
+    "area_m2": 615.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "Niza"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-prado-veraniego-norte-3-habitaciones-2-banos-1-garajes/MC6869887?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3800000,
+    "area_m2": 77.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "LA SULTANA NORTE   Colina y Alrededores"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-monaco-1-habitaciones-2-banos-1-garajes/MC2461414?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 4000000,
+    "area_m2": 88.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "EL BATAN  AMOBLADO 88M2 CON TERRAZA 1 HABITACION Y ESTUDIO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chapinero-central-1-habitaciones-1-banos/MC2686769?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 1690000,
+    "area_m2": 3510.0,
+    "bathrooms": 1,
+    "parking_spots": 0,
+    "barrio": "CHAPINERO CENTRAL   Zona Urbana"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-santa-bibiana-3-habitaciones-3-banos-1-garajes/14033-M6875912?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 5000000,
+    "area_m2": 121.92,
+    "bathrooms": 3,
+    "parking_spots": 1,
+    "barrio": "CHICO NAVARRA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chapinero-alto-2-habitaciones-2-banos-1-garajes/34-M6867390?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3000000,
+    "area_m2": 67.88,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "Chapinero Alto"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-colinas-de-suba-5-habitaciones-5-banos-4-garajes/920-M5953164?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 6700000,
+    "area_m2": 448.32,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "Colinas De Suba"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-rosales-2-habitaciones-3-banos-2-garajes/20263-M6772192?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 7150000,
+    "area_m2": 167.0,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "Rosales"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-reservado-3-habitaciones-4-banos-4-garajes/771-M6415234?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 26000000,
+    "area_m2": 331.0,
+    "bathrooms": 4,
+    "parking_spots": 4,
+    "barrio": "Chico Reservado"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-la-cabrera-2-habitaciones-3-banos-4-garajes/19701-M6749780?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 24500000,
+    "area_m2": 221.0,
+    "bathrooms": 3,
+    "parking_spots": 4,
+    "barrio": "La Cabrera"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-puente-grande-3-habitaciones-2-banos/20842-M6795161?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 1400000,
+    "area_m2": 48.0,
+    "bathrooms": 2,
+    "parking_spots": 0,
+    "barrio": "Puente Grande"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-santa-fe-5-habitaciones-5-banos-1-garajes/22823-M6691510?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 17000000,
+    "area_m2": 790.0,
+    "bathrooms": 5,
+    "parking_spots": 1,
+    "barrio": "santa fe martires"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-la-calera-5-habitaciones-5-banos-4-garajes/5031-M5475008?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 13000000,
+    "area_m2": 450.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "La Calera"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-santa-bibiana-3-habitaciones-3-banos-3-garajes/11079-M6663808?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 16000000,
+    "area_m2": 360.0,
+    "bathrooms": 3,
+    "parking_spots": 3,
+    "barrio": "Chico Navarra"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-santa-barbara-oriental-3-habitaciones-4-banos-4-garajes/21638-M6290890?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 18000000,
+    "area_m2": 299.0,
+    "bathrooms": 4,
+    "parking_spots": 4,
+    "barrio": "Santa Barbara Oriental"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-salitre-2-habitaciones-2-banos-1-garajes/14953-M6789794?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3800000,
+    "area_m2": 69.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "Salitre"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-cedro-golf-4-habitaciones-4-banos-2-garajes/21945-M6701874?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 4000000,
+    "area_m2": 125.0,
+    "bathrooms": 4,
+    "parking_spots": 2,
+    "barrio": "Cedro Golf"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-bella-suiza-1-habitaciones-1-banos/5340-M6199756?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 2700000,
+    "area_m2": 45.0,
+    "bathrooms": 1,
+    "parking_spots": 0,
+    "barrio": "Bella Suiza"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-sotileza-4-habitaciones-5-banos-4-garajes/2671-M5793058?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 25000000,
+    "area_m2": 377.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "Sotileza"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-marsella-2-habitaciones-2-banos-2-garajes/920-M6106757?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3200000,
+    "area_m2": 60.0,
+    "bathrooms": 2,
+    "parking_spots": 2,
+    "barrio": "Marsella"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-casa-blanca-4-habitaciones-4-banos-4-garajes/10173-M6591399?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 13000000,
+    "area_m2": 458.0,
+    "bathrooms": 4,
+    "parking_spots": 4,
+    "barrio": "SAN SIMON GUAYMARAL"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-santa-ana-3-habitaciones-3-banos-3-garajes/304-M6175357?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 13950000,
+    "area_m2": 220.0,
+    "bathrooms": 3,
+    "parking_spots": 3,
+    "barrio": "Santa Ana"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-norte-2-habitaciones-2-banos-2-garajes/18758-M6879654?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 7800000,
+    "area_m2": 132.0,
+    "bathrooms": 2,
+    "parking_spots": 2,
+    "barrio": "Chico Norte"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-salitre-1-habitaciones-1-banos-1-garajes/14953-M6750689?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 2456000,
+    "area_m2": 36.0,
+    "bathrooms": 1,
+    "parking_spots": 1,
+    "barrio": "Salitre"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-portales-del-norte-3-habitaciones-2-banos-1-garajes/21191-M6779811?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 2200000,
+    "area_m2": 67.06,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "Portales Del Norte"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-ciudad-jardin-norte-5-habitaciones-3-banos-2-garajes/22326-M6870418?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 8900000,
+    "area_m2": 300.0,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "SUBA NORTE"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-bellavista-3-habitaciones-5-banos-4-garajes/3664-M5977028?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 48000000,
+    "area_m2": 489.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "Rosales Reservado"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-los-rosales-3-habitaciones-3-banos/920-M5858341?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 22000000,
+    "area_m2": 331.0,
+    "bathrooms": 3,
+    "parking_spots": 0,
+    "barrio": "Los Rosales"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-la-tebaida-3-habitaciones-4-banos-2-garajes/778-M6519705?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3500000,
+    "area_m2": 170.0,
+    "bathrooms": 4,
+    "parking_spots": 2,
+    "barrio": "La Tebaida"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-norte-et.-ii-3-habitaciones-4-banos-2-garajes/3965-M4436902?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 8000000,
+    "area_m2": 200.0,
+    "bathrooms": 4,
+    "parking_spots": 2,
+    "barrio": "MUSEO DEL CHICO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-molinos-norte-3-habitaciones-3-banos-1-garajes/2832-M6608378?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 4200000,
+    "area_m2": 101.0,
+    "bathrooms": 3,
+    "parking_spots": 1,
+    "barrio": "SANTA BARBARA CENTRAL"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-santa-barbara-occidental-2-habitaciones-2-banos-1-garajes/16649-M6125039?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3610000,
+    "area_m2": 90.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "SANTA BARBARA OCCIDENTAL"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-el-nogal-3-habitaciones-5-banos-4-garajes/374-M6878469?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 20000000,
+    "area_m2": 273.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "EL NOGAL"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-santa-ana-occidental-2-habitaciones-4-banos-2-garajes/3965-M6780483?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 4660000,
+    "area_m2": 112.0,
+    "bathrooms": 4,
+    "parking_spots": 2,
+    "barrio": "SANTA ANA OCCIDENTAL"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-san-patricio-1-habitaciones-2-banos-1-garajes/10558-M6810368?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3500000,
+    "area_m2": 44.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "SAN PATRICIO SANTA BARBARA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-san-patricio-1-habitaciones-1-banos-1-garajes/11569-M6852367?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3000000,
+    "area_m2": 34.0,
+    "bathrooms": 1,
+    "parking_spots": 1,
+    "barrio": "SAN PATRICIO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-bellavista-3-habitaciones-5-banos-3-garajes/2832-M6694244?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 15000000,
+    "area_m2": 301.0,
+    "bathrooms": 5,
+    "parking_spots": 3,
+    "barrio": "LAS ROSALES"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-el-refugio-2-habitaciones-4-banos-4-garajes/2832-M6608447?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 10000000,
+    "area_m2": 150.0,
+    "bathrooms": 4,
+    "parking_spots": 4,
+    "barrio": "EL REFUGIO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-el-nogal-edif-retiro-82-2-habitaciones-4-banos-3-garajes/873-M5601637?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 15000000,
+    "area_m2": 220.0,
+    "bathrooms": 4,
+    "parking_spots": 3,
+    "barrio": "LA CABRERA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-2-habitaciones-3-banos-3-garajes/800-M5852232?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 15000000,
+    "area_m2": 125.0,
+    "bathrooms": 3,
+    "parking_spots": 3,
+    "barrio": "CHICO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-las-acacias-4-habitaciones-5-banos-3-garajes/800-M5805575?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 12000000,
+    "area_m2": 279.0,
+    "bathrooms": 5,
+    "parking_spots": 3,
+    "barrio": "LOS ROSALES"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-cedro-madeiras-3-habitaciones-3-banos-2-garajes/990-M4790910?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3900000,
+    "area_m2": 112.0,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "CEDRITOS"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-calleja-3-habitaciones-3-banos-3-garajes/16739-M6801647?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 9800000,
+    "area_m2": 187.6,
+    "bathrooms": 3,
+    "parking_spots": 3,
+    "barrio": "Calleja"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-2-habitaciones-3-banos-3-garajes/800-M5852336?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 15000000,
+    "area_m2": 125.0,
+    "bathrooms": 3,
+    "parking_spots": 3,
+    "barrio": "CHICO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-2-habitaciones-3-banos-3-garajes/800-M5852141?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 15000000,
+    "area_m2": 125.0,
+    "bathrooms": 3,
+    "parking_spots": 3,
+    "barrio": "CHICO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chapinero-alto-3-habitaciones-3-banos-2-garajes/2368-M6553627?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 7300000,
+    "area_m2": 150.21,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "Chapinero Alto"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-santa-barbara-3-habitaciones-4-banos-2-garajes/17549-M6804244?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 7500000,
+    "area_m2": 167.0,
+    "bathrooms": 4,
+    "parking_spots": 2,
+    "barrio": "Santa Barbara"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-el-refugio-3-habitaciones-3-banos-2-garajes/562-M6608639?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 9500000,
+    "area_m2": 149.0,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "El Refugio"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-3-habitaciones-3-banos-2-garajes/11676-M6746733?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 7500000,
+    "area_m2": 140.0,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "Chico"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-san-jose-de-bavaria-2-habitaciones-1-banos/2361-M6783379?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 2000000,
+    "area_m2": 43.0,
+    "bathrooms": 1,
+    "parking_spots": 0,
+    "barrio": "San Jose De Bavaria"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-estrella-del-norte-4-habitaciones-4-banos-3-garajes/17743-M6790072?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 6000000,
+    "area_m2": 285.0,
+    "bathrooms": 4,
+    "parking_spots": 3,
+    "barrio": "VILLA MAGDALA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-pedregal-2-habitaciones-2-banos/MC6870577?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 1400000,
+    "area_m2": 45.0,
+    "bathrooms": 2,
+    "parking_spots": 0,
+    "barrio": "FONTIBON BELEN   Fontibón Tintal"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-nueva-zelandia-3-habitaciones-2-banos-1-garajes/MC6870114?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3550000,
+    "area_m2": 90.95,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "NUEVA ZELANDIA   Zona Urbana"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-ub.-santa-coloma-4-habitaciones-4-banos-2-garajes/MC6789046?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 5200000,
+    "area_m2": 152.0,
+    "bathrooms": 4,
+    "parking_spots": 2,
+    "barrio": "LA CALLEJA ALTA   Santa Bárbara"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-la-esperanza-norte-1-habitaciones-1-banos/MC5253769?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3100000,
+    "area_m2": 35.0,
+    "bathrooms": 1,
+    "parking_spots": 0,
+    "barrio": "CIUDAD SALITRE   Normandía"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-4-habitaciones-5-banos-4-garajes/464-M5285544?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 25000000,
+    "area_m2": 373.6,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "La Cabrera"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-la-cabrera-3-habitaciones-4-banos-3-garajes/2671-M6649063?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 30000000,
+    "area_m2": 243.0,
+    "bathrooms": 4,
+    "parking_spots": 3,
+    "barrio": "La Cabrera"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-los-rosales-2-habitaciones-4-banos-3-garajes/464-M5742999?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 12000000,
+    "area_m2": 197.64,
+    "bathrooms": 4,
+    "parking_spots": 3,
+    "barrio": "Los Rosales"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-lindaraja-4-habitaciones-4-banos-4-garajes/11079-M3627511?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 14500000,
+    "area_m2": 362.0,
+    "bathrooms": 4,
+    "parking_spots": 4,
+    "barrio": "Lindaraja"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-niza-norte-2-habitaciones-2-banos-1-garajes/771-M6711659?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 2500000,
+    "area_m2": 58.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "Niza Norte"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-bosque-medina-4-habitaciones-5-banos-4-garajes/11079-M6386327?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 30390000,
+    "area_m2": 620.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "Bosque Medina"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-rosales-4-habitaciones-5-banos-4-garajes/2671-M5836079?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 54900000,
+    "area_m2": 553.51,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "Rosales"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-salitre-1-habitaciones-1-banos-1-garajes/14953-M6750690?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3100000,
+    "area_m2": 50.0,
+    "bathrooms": 1,
+    "parking_spots": 1,
+    "barrio": "Salitre"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-sotileza-3-habitaciones-4-banos-4-garajes/920-M6138094?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 12500000,
+    "area_m2": 440.0,
+    "bathrooms": 4,
+    "parking_spots": 4,
+    "barrio": "Sotileza"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-bellavista-3-habitaciones-5-banos-4-garajes/2671-M5852314?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 43476913,
+    "area_m2": 381.92,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "Rosales"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-san-patricio-3-habitaciones-3-banos-3-garajes/22192-M6740020?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3579000,
+    "area_m2": 128.0,
+    "bathrooms": 3,
+    "parking_spots": 3,
+    "barrio": "San Patricio"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-reservado-3-habitaciones-5-banos-4-garajes/920-M6111857?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 30600000,
+    "area_m2": 310.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "Chico Reservado"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-la-esperanza-5-habitaciones-4-banos-1-garajes/21638-M6384587?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 10000000,
+    "area_m2": 350.0,
+    "bathrooms": 4,
+    "parking_spots": 1,
+    "barrio": "La Esperanza"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-rosales-3-habitaciones-4-banos-4-garajes/2671-M6674345?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 20000000,
+    "area_m2": 273.0,
+    "bathrooms": 4,
+    "parking_spots": 4,
+    "barrio": "Rosales"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-el-chico-3-habitaciones-3-banos-3-garajes/920-M6411453?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 8000000,
+    "area_m2": 312.2,
+    "bathrooms": 3,
+    "parking_spots": 3,
+    "barrio": "El Chico"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-lisboa-2-habitaciones-3-banos-2-garajes/920-M6704652?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3800000,
+    "area_m2": 78.0,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "Lisboa"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-la-cabrera-4-habitaciones-5-banos-4-garajes/464-M5456738?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 20000000,
+    "area_m2": 420.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "La Cabrera"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-usaquen-3-habitaciones-5-banos-4-garajes/771-M6332628?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 22000000,
+    "area_m2": 320.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "Usaquen"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chapinero-alto-2-habitaciones-2-banos-2-garajes/920-M6879628?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 4120000,
+    "area_m2": 70.0,
+    "bathrooms": 2,
+    "parking_spots": 2,
+    "barrio": "Chapinero Alto"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-la-calera-4-habitaciones-5-banos-3-garajes/2671-M5836187?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 11122300,
+    "area_m2": 447.0,
+    "bathrooms": 5,
+    "parking_spots": 3,
+    "barrio": "La Calera"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-alto-2-habitaciones-3-banos-2-garajes/2671-M6785393?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 13100000,
+    "area_m2": 122.0,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "Chico Alto"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-guaymaral-4-habitaciones-5-banos-4-garajes/11079-M6195103?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 14900000,
+    "area_m2": 500.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "Guaymaral"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-el-chico-1-habitaciones-1-banos-1-garajes/920-M6862728?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 5800000,
+    "area_m2": 69.0,
+    "bathrooms": 1,
+    "parking_spots": 1,
+    "barrio": "El Chico"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-los-rosales-3-habitaciones-3-banos-2-garajes/2832-M6694650?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 7500000,
+    "area_m2": 130.0,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "LOS ROSALES"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-la-candelaria-1-habitaciones-2-banos-1-garajes/15704-M6857914?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3600000,
+    "area_m2": 70.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "La Candelaria"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-norte-1-habitaciones-1-banos-2-garajes/14241-M6855457?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 5000000,
+    "area_m2": 67.0,
+    "bathrooms": 1,
+    "parking_spots": 2,
+    "barrio": "PARQUE DEL CHICO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-bella-suiza-alta-1-habitaciones-1-banos-1-garajes/15738-M6766145?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 1800000,
+    "area_m2": 45.0,
+    "bathrooms": 1,
+    "parking_spots": 1,
+    "barrio": "Bella Suiza Alta"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-norte-3-habitaciones-4-banos-3-garajes/3072-M6773056?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 19000000,
+    "area_m2": 240.0,
+    "bathrooms": 4,
+    "parking_spots": 3,
+    "barrio": "CHICO MUSEO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-los-rosales-2-habitaciones-3-banos-3-garajes/873-M4045238?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 9000000,
+    "area_m2": 136.0,
+    "bathrooms": 3,
+    "parking_spots": 3,
+    "barrio": "LAS ROSALES"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-pasadena-5-habitaciones-5-banos-3-garajes/18942-M6615375?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 14500000,
+    "area_m2": 500.0,
+    "bathrooms": 5,
+    "parking_spots": 3,
+    "barrio": "Pasadena"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-norte-et-ii-3-habitaciones-3-banos-2-garajes/18314-M6862228?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 7000000,
+    "area_m2": null,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "CHICO RESERVADO"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-bellavista-1-habitaciones-2-banos-1-garajes/3072-M6017977?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 9000000,
+    "area_m2": 90.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "ROSALES BELLAVISTA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-santa-ana-oriental-3-habitaciones-2-banos-1-garajes/16108-M6275104?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 4500000,
+    "area_m2": 96.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "Santa Ana Oriental"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-santa-bibiana-4-habitaciones-4-banos-2-garajes/15996-M6857889?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 9000000,
+    "area_m2": 200.0,
+    "bathrooms": 4,
+    "parking_spots": 2,
+    "barrio": "CHICO NAVARRA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-3-habitaciones-4-banos-2-garajes/3074-M6338718?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 11000000,
+    "area_m2": 252.0,
+    "bathrooms": 4,
+    "parking_spots": 2,
+    "barrio": "LOS ROSALES"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-colinas-de-suba-3-habitaciones-5-banos-4-garajes/847-M5757185?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 16000000,
+    "area_m2": 283.0,
+    "bathrooms": 5,
+    "parking_spots": 4,
+    "barrio": "Colinas De Suba"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-santa-barbara-central-4-habitaciones-4-banos-4-garajes/800-M6338467?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 9900000,
+    "area_m2": 300.0,
+    "bathrooms": 4,
+    "parking_spots": 4,
+    "barrio": "CONTRY"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-chico-norte-et-ii-1-habitaciones-1-banos/10987-M6599955?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 3000000,
+    "area_m2": 30.0,
+    "bathrooms": 1,
+    "parking_spots": 0,
+    "barrio": "CHICO NORTE"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-cjr-ventto-3-habitaciones-5-banos-3-garajes/3241-M5556860?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 9500000,
+    "area_m2": 250.0,
+    "bathrooms": 5,
+    "parking_spots": 3,
+    "barrio": "CERROS DE SUBA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-ub-bosques-de-medina-3-habitaciones-4-banos-2-garajes/800-M6339397?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 15800000,
+    "area_m2": 245.0,
+    "bathrooms": 4,
+    "parking_spots": 2,
+    "barrio": "BOSQUE MEDINA"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-la-colina-3-habitaciones-3-banos-2-garajes/5410-M6649700?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 6000000,
+    "area_m2": 126.0,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "La Colina"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-santa-barbara-occidental-3-habitaciones-3-banos-1-garajes/3438-M6160973?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 4924300,
+    "area_m2": 133.0,
+    "bathrooms": 3,
+    "parking_spots": 1,
+    "barrio": "Santa Barbara"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-mirandela-2-habitaciones-2-banos-1-garajes/2361-M6610015?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 2500000,
+    "area_m2": 56.0,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "Mirandela"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-ub.-bosques-de-medina-3-habitaciones-3-banos-2-garajes/5410-M5390960?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 8200000,
+    "area_m2": 211.0,
+    "bathrooms": 3,
+    "parking_spots": 2,
+    "barrio": "Bosque Medina"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-bosques-de-la-canada-usaquen-3-habitaciones-5-banos-3-garajes/5410-M6649720?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 10000000,
+    "area_m2": 203.5,
+    "bathrooms": 5,
+    "parking_spots": 3,
+    "barrio": "Bosques De La Cañada (Usaquen)"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-san-jorge-4-habitaciones-2-banos-1-garajes/393-M6173985?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 2200000,
+    "area_m2": 68.35,
+    "bathrooms": 2,
+    "parking_spots": 1,
+    "barrio": "San Jorge"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-casa-bogota-bosque-de-pinos-3-habitaciones-4-banos-3-garajes/MC6880391?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 9800000,
+    "area_m2": 231.18,
+    "bathrooms": 4,
+    "parking_spots": 3,
+    "barrio": "BOSQUE DE PINOS   Santa Bárbara"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-ciudad-salitre-sur-oriental-1-habitaciones-1-banos/MC6301897?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 2220000,
+    "area_m2": 33.0,
+    "bathrooms": 1,
+    "parking_spots": 0,
+    "barrio": "CIUDAD SALITRE   Zona Urbana"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-santa-barbara-1-habitaciones-1-banos/MC6831195?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 2300000,
+    "area_m2": 32.0,
+    "bathrooms": 1,
+    "parking_spots": 0,
+    "barrio": "LA CANDELARIA   Santa Bárbara"
+  },
+  {
+    "url": "https://www.metrocuadrado.com/inmueble/arriendo-apartamento-bogota-gilmar-1-habitaciones-1-banos/MC5186029?src_url=%2Fapartamento-casa%2Farriendo%2Fbogota%2F%3Fsearch%3Dform",
+    "price": 2100000,
+    "area_m2": 36.0,
+    "bathrooms": 1,
+    "parking_spots": 0,
+    "barrio": "CASA BLANCA NORTE   Colina y Alrededores"
+  }
+]
