@@ -3,11 +3,12 @@
 import json
 import random
 import time
-from pathlib import Path
 
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
+
+from paths import CHROME_PROFILE_DIR
 
 USER_AGENTS = [
     "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) "
@@ -47,17 +48,17 @@ class StealthBrowser:
         extra_arguments: list[str] | None = None,
         driver_path: str | None = None,
         capture_network: bool = False,
+        headless: bool = False,
     ):
         self.binary_location = binary_location
-        self.user_data_dir = user_data_dir or str(
-            Path(__file__).resolve().parent / ".chrome_profile"
-        )
+        self.user_data_dir = user_data_dir or str(CHROME_PROFILE_DIR)
         self.user_agent = user_agent
         self.language = language
         self.window_size = window_size
         self.extra_arguments = extra_arguments or []
         self.driver_path = driver_path
         self.capture_network = capture_network
+        self.headless = headless
         self.driver: webdriver.Chrome | None = None
 
     def _build_options(self) -> Options:
@@ -89,6 +90,11 @@ class StealthBrowser:
 
         if self.capture_network:
             options.set_capability("goog:loggingPrefs", {"performance": "ALL"})
+
+        if self.headless:
+            # "new" headless mode renders closer to a real headed browser
+            # than the legacy --headless flag, so it's less of a bot tell.
+            options.add_argument("--headless=new")
 
         return options
 

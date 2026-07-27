@@ -1,15 +1,15 @@
 """Scrape apartment/house rental listings from metrocuadrado.com."""
 
-import json
+import argparse
 import random
 import re
 import time
-from pathlib import Path
 
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
+from paths import LISTINGS_PATH, write_json
 from stealth_browser import StealthBrowser
 
 BASE_URL = "https://www.metrocuadrado.com/apartamento-casa/arriendo/bogota/"
@@ -149,10 +149,12 @@ def _go_to_next_page(driver, target_page_number: int, wait_seconds: int = 15) ->
 
 
 def scrape_listings(
-    max_pages: int = 5, delay_between_pages: tuple[float, float] = (2.0, 4.0)
+    max_pages: int = 5,
+    headless: bool = False,
+    delay_between_pages: tuple[float, float] = (2.0, 4.0),
 ) -> list[dict]:
     all_listings = []
-    with StealthBrowser() as browser:
+    with StealthBrowser(headless=headless) as browser:
         driver = browser.driver
         browser.get(BASE_URL)
         WebDriverWait(driver, 20).until(
@@ -173,8 +175,24 @@ def scrape_listings(
     return all_listings
 
 
+def _parse_args() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Scrape metrocuadrado.com rental search results.")
+    parser.add_argument(
+        "--max-pages",
+        type=int,
+        default=30,
+        help="Number of search-result pages to scrape (default: 30).",
+    )
+    parser.add_argument(
+        "--headless",
+        action="store_true",
+        help="Run the browser headless (default: headed/visible).",
+    )
+    return parser.parse_args()
+
+
 if __name__ == "__main__":
-    listings = scrape_listings(max_pages=5)
-    output_path = Path(__file__).resolve().parent / "listings.json"
-    output_path.write_text(json.dumps(listings, indent=2, ensure_ascii=False), encoding="utf-8")
-    print(f"Saved {len(listings)} listings to {output_path}")
+    args = _parse_args()
+    listings = scrape_listings(max_pages=args.max_pages, headless=args.headless)
+    write_json(LISTINGS_PATH, listings)
+    print(f"Saved {len(listings)} listings to {LISTINGS_PATH}")
