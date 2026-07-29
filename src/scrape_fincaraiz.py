@@ -7,6 +7,11 @@ directly in a `<script id="__NEXT_DATA__">` tag in the raw HTML. No browser
 or JS execution is needed to see it, and no per-listing detail-page visit is
 needed either — so this uses plain HTTP requests instead of StealthBrowser,
 and is a single stage (unlike the metrocuadrado card+detail pipeline).
+
+Sorted most-recent-first via the `ordenListado` query param (see
+ORDER_MOST_RECENT below), matching metrocuadrado stage-1's own "Más
+reciente" sort — no browser interaction needed for this site, just the
+right query param.
 """
 
 import argparse
@@ -22,8 +27,15 @@ from paths import FINCARAIZ_LISTINGS_PATH, write_json
 from stealth_browser import USER_AGENTS
 
 BASE_PATH = "/arriendo/casas-y-apartamentos/bogota/bogota-dc"
-QUERY = "ordenListado=3"
 SITE_ROOT = "https://www.fincaraiz.com.co"
+
+# `ordenListado` controls the site's own sort order (its "order-filter"
+# button/dropdown in the UI). Confirmed by checking each value's resulting
+# sort label directly in a browser: 1=Menor precio, 2=Popularidad,
+# 3=Más Recientes, 4=Menor m², 5=Mayor m². 3 ("most recent first") is used
+# to match metrocuadrado's stage-1 scrape, which also sorts newest-first.
+ORDER_MOST_RECENT = 3
+QUERY = f"ordenListado={ORDER_MOST_RECENT}"
 
 HEADERS = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",

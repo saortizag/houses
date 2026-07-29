@@ -131,7 +131,16 @@ metrocuadrado scripts expose this as a `--headless` CLI flag.
 conda run -n cars python src/scrape_metrocuadrado.py [--max-pages N] [--headless]
 ```
 
-Pages through the search results (clicking the site's pagination — it's
+Before paging through anything, selects **"Más reciente"** (most recent
+first) from the site's own sort dropdown, so results come back newest-first
+instead of the site's default order. This dropdown is a custom
+`<pt-dropdown element-id="sorterControl">` web component — its options
+(including the literal `<input id="sorterControl">` the underlying control
+is built from) only exist inside its shadow root, not in the plain page
+HTML. The selection persists across pagination on its own, so it's applied
+once per session, before page 1.
+
+Then pages through the search results (clicking the site's pagination — it's
 client-side, so URL query params like `?page=2` don't work) and scroll-loads
 each page's lazily-rendered cards. Writes/overwrites `output/listings.json`
 (creating `output/` first if needed).
@@ -226,6 +235,13 @@ unlike metrocuadrado, this is:
   client-side rendering to wait for, so a real browser buys nothing here.
   A realistic User-Agent (reused from `stealth_browser.USER_AGENTS`) and
   Accept-Language header are still set by hand on every request.
+
+Sorted **most-recent-first**, same as metrocuadrado stage 1 — but since
+there's no browser here, this is just the right `ordenListado` query param
+(`=3`) rather than a UI interaction. Confirmed by checking each value's
+resulting sort label directly in the site's own order-filter dropdown:
+`1`=Menor precio, `2`/`6`=Popularidad, `3`=**Más Recientes**, `4`=Menor m²,
+`5`=Mayor m² — see `ORDER_MOST_RECENT` in `scrape_fincaraiz.py`.
 
 ### Usage
 

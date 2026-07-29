@@ -19,6 +19,8 @@ CARD_SELECTOR = (
     ".property-card__container.property-card__default.property-card__default-normal"
 )
 CARD_LINK_SELECTOR = ".property-card__content > a"
+SORT_DROPDOWN_SELECTOR = 'pt-dropdown[element-id="sorterControl"]'
+SORT_OPTION_MOST_RECENT = "Más reciente"
 
 EXTRACT_CARDS_JS = """
 const cards = document.querySelectorAll(arguments[0]);
@@ -64,6 +66,40 @@ def _parse_price(raw: str | None) -> int | None:
         return None
     digits = re.sub(r"[^\d]", "", raw)
     return int(digits) if digits else None
+
+
+def _select_sort_option(driver, option_text: str, wait_seconds: int = 15) -> None:
+    """Open the "Ordenar por" dropdown (a <pt-dropdown> web component, its
+    options only reachable through its shadow root) and pick the option
+    whose text matches `option_text`. Persists across pagination, so this
+    only needs to run once per session, before the first page is scraped.
+    """
+    first_card = driver.find_element(By.CSS_SELECTOR, CARD_SELECTOR)
+    first_href_before = first_card.find_element(By.CSS_SELECTOR, CARD_LINK_SELECTOR).get_attribute(
+        "href"
+    )
+
+    dropdown = driver.find_element(By.CSS_SELECTOR, SORT_DROPDOWN_SELECTOR)
+    driver.execute_script("arguments[0].scrollIntoView({block: 'center'});", dropdown)
+    time.sleep(0.3)
+    dropdown.click()
+
+    options = dropdown.shadow_root.find_elements(By.CSS_SELECTOR, "li.pt-dropdown__option")
+    target = next((opt for opt in options if opt.text.strip() == option_text), None)
+    if target is None:
+        found = [opt.text.strip() for opt in options]
+        raise RuntimeError(f"Sort option {option_text!r} not found; available: {found}")
+    target.click()
+
+    def _href_changed(d):
+        try:
+            card = d.find_element(By.CSS_SELECTOR, CARD_SELECTOR)
+            href = card.find_element(By.CSS_SELECTOR, CARD_LINK_SELECTOR).get_attribute("href")
+            return href != first_href_before
+        except Exception:
+            return False
+
+    WebDriverWait(driver, wait_seconds).until(_href_changed)
 
 
 def _load_all_cards_on_page(
@@ -160,6 +196,9 @@ def scrape_listings(
         WebDriverWait(driver, 20).until(
             EC.presence_of_element_located((By.CSS_SELECTOR, RESULTS_CONTAINER))
         )
+
+        print(f"Sorting by {SORT_OPTION_MOST_RECENT!r}...")
+        _select_sort_option(driver, SORT_OPTION_MOST_RECENT)
 
         for page_num in range(1, max_pages + 1):
             print(f"Loading page {page_num}/{max_pages}...")
