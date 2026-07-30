@@ -26,6 +26,7 @@ from urllib.parse import urlparse
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 
+from barrio_lookup import lookup_official_barrio
 from paths import LISTINGS_PATH, write_json
 from stealth_browser import StealthBrowser
 
@@ -109,6 +110,7 @@ def enrich_listing(browser: StealthBrowser, entry: dict) -> dict:
     entry["codigo"] = codigo
     entry["latitude"] = latitude
     entry["longitude"] = longitude
+    entry["official_barrio"] = lookup_official_barrio(latitude, longitude)
     entry["nearby_points"] = points
 
     price = entry.get("price")

@@ -7,6 +7,8 @@ SRC_DIR = Path(__file__).resolve().parent
 PROJECT_ROOT = SRC_DIR.parent
 OUTPUT_DIR = PROJECT_ROOT / "output"
 CHROME_PROFILE_DIR = PROJECT_ROOT / ".chrome_profile"
+INPUT_DIR = PROJECT_ROOT / "input"
+SECTOR_SHAPEFILE_PATH = INPUT_DIR / "sector.shp.0425" / "SECTOR.shp"
 
 LISTINGS_PATH = OUTPUT_DIR / "listings.json"
 FINCARAIZ_LISTINGS_PATH = OUTPUT_DIR / "fincaraiz_listings.json"

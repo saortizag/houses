@@ -12,8 +12,8 @@ They're independent: separate scripts, separate output files
 schemas share the same field names wherever the data is conceptually the
 same (`price`, `area_m2`, `bathrooms`, `parking_spots`, `barrio`,
 `administracion`, `estrato`, `codigo`, `latitude`, `longitude`,
-`total_price`, `price_per_m2`), so both files can be loaded and compared the
-same way (see `analyze.ipynb`).
+`official_barrio`, `total_price`, `price_per_m2`), so both files can be
+loaded and compared the same way (see `analyze.ipynb`).
 
 `run_pipeline.py` drives both of them together and merges the results that
 match a set of price/area/bathrooms/parking-spot ranges you choose — see
@@ -38,6 +38,17 @@ you don't need to create it yourself.
   `headless=True`) to run without one.
 - **fincaraiz only:** `requests` + `beautifulsoup4` (both already in `cars`).
   No browser, no display needed — see why in its section below.
+- **Both sites:** `shapely` + `pyshp` (`conda run -n cars pip install
+  shapely pyshp`) for the official-barrio lookup — see [Official barrio
+  lookup](#official-barrio-lookup-srcbarrio_lookuppy) below. `pyshp` is
+  pure Python; `shapely` is a compiled wheel that bundles GEOS statically
+  (no separate system library needed). Because this lookup is wired
+  directly into the functions that set `latitude`/`longitude`,
+  `input/sector.shp.0425/SECTOR.shp` must exist for
+  `scrape_listing_details.py`, `scrape_fincaraiz.py`, or either
+  `run_pipeline*.py` script to even import successfully — not just to run.
+  (`scrape_metrocuadrado.py` alone is unaffected — stage 1 never touches
+  coordinates.)
 
 ## Project structure
 
@@ -46,11 +57,14 @@ houses/
 ├── src/
 │   ├── paths.py                   # shared path constants + write_json() helper
 │   ├── stealth_browser.py
+│   ├── barrio_lookup.py           # official-barrio point-in-polygon lookup
 │   ├── scrape_metrocuadrado.py
 │   ├── scrape_listing_details.py
 │   ├── scrape_fincaraiz.py
 │   ├── run_pipeline.py            # sequential pipeline
 │   └── run_pipeline_parallel.py   # same pipeline, overlapped/concurrent
+├── input/
+│   └── sector.shp.0425/           # Bogotá cadastral sector shapefile (downloaded, not scraped)
 ├── output/                        # created automatically; all generated data
 │   ├── listings.json
 │   ├── fincaraiz_listings.json
@@ -62,8 +76,9 @@ houses/
 
 | File | Purpose |
 |---|---|
-| `src/paths.py` | Single source of truth for every path below (`OUTPUT_DIR`, `LISTINGS_PATH`, etc.) plus `write_json()`, which creates `output/` on first write if it doesn't exist yet. Every other script imports from here instead of computing its own paths. |
+| `src/paths.py` | Single source of truth for every path below (`OUTPUT_DIR`, `LISTINGS_PATH`, `SECTOR_SHAPEFILE_PATH`, etc.) plus `write_json()`, which creates `output/` on first write if it doesn't exist yet. Every other script imports from here instead of computing its own paths. |
 | `src/stealth_browser.py` | `StealthBrowser` class — the reusable Selenium browser, used by the metrocuadrado scripts. |
+| `src/barrio_lookup.py` | Official-barrio point-in-polygon lookup against the shapefile in `input/`, wired into both sites' scraping. |
 | `src/scrape_metrocuadrado.py` | metrocuadrado stage 1: scrapes the search-results grid into `output/listings.json`. |
 | `src/scrape_listing_details.py` | metrocuadrado stage 2: enriches specific listings with detail-page data. |
 | `output/listings.json` | metrocuadrado output, shared by both of its stages. |
@@ -214,6 +229,7 @@ Stage 2 adds these fields **only to the URLs you pass in**:
 | `estrato` | int \| null | Colombian socioeconomic stratum (1–6). |
 | `codigo` | string \| null | Listing code, parsed from the URL itself (last path segment before the query string) — not scraped from the page. |
 | `latitude` / `longitude` | float \| null | The listing's coordinates, read from the map widget's own network request. |
+| `official_barrio` | string \| null | Cadastral/official neighborhood name, via point-in-polygon lookup — see [Official barrio lookup](#official-barrio-lookup-srcbarrio_lookuppy) below. |
 | `nearby_points` | list of `{name, address}` | Points of interest near the listing, from the same network request. |
 | `total_price` | int \| null | `price + (administracion or 0)`. |
 | `price_per_m2` | float \| null | `total_price / area_m2`, rounded to 2 decimals. |
@@ -296,12 +312,59 @@ All fields are populated in a single pass (no separate enrichment step):
 | `estrato` | int \| null | Colombian socioeconomic stratum (1–6). |
 | `codigo` | string \| null | fincaraiz's own listing code (also the last URL path segment). |
 | `latitude` / `longitude` | float \| null | The listing's coordinates, straight from its record. |
+| `official_barrio` | string \| null | Cadastral/official neighborhood name, via point-in-polygon lookup — see [Official barrio lookup](#official-barrio-lookup-srcbarrio_lookuppy) below. |
 | `total_price` | float \| null | The site's own admin-inclusive total if present, else `price + administracion`. |
 | `price_per_m2` | float \| null | `total_price / area_m2`, rounded to 2 decimals. |
 
 There's no `nearby_points` equivalent here — fincaraiz's listing data doesn't
 expose a nearby-points-of-interest feature the way metrocuadrado's map
 widget does.
+
+## Official barrio lookup (`src/barrio_lookup.py`)
+
+Both `barrio` fields above are free text supplied by each site — inconsistent
+naming/casing, sometimes missing (`"Sin barrio definido"` on fincaraiz).
+`official_barrio` is a separate, independently-derived field: Bogotá's
+official cadastral sector boundaries (`input/sector.shp.0425/SECTOR.shp` — a
+shapefile the user downloaded, not scraped) via point-in-polygon lookup
+against each listing's own `latitude`/`longitude`.
+
+```python
+import sys
+sys.path.insert(0, "src")
+from barrio_lookup import lookup_official_barrio
+
+lookup_official_barrio(4.711435, -74.05124)  # -> "LA CALLEJA"
+```
+
+- **`official_barrio` and `barrio` will legitimately disagree often** — the
+  cadastral SECTOR layer (1199 polygons, `SCANOMBRE` field) is a
+  finer-grained official partition than either site's colloquial
+  neighborhood naming. That's expected, not a lookup bug.
+- Returns `None` when coordinates are missing, or when the point falls
+  outside all 1199 sectors (e.g. a listing in a neighboring municipality
+  like La Calera, just outside Bogotá proper).
+- The shapefile's CRS (MAGNA-SIRGAS/EPSG:4686) is a geographic (degrees) CRS
+  numerically equivalent to WGS84 for this purpose — no reprojection is
+  performed, shapefile coordinates are compared directly against listings'
+  own lat/long.
+- **Wired directly into live scraping** — `scrape_listing_details.py`'s
+  `enrich_listing()` and `scrape_fincaraiz.py`'s `_normalize_listing()` both
+  call `lookup_official_barrio()` themselves, so every future scrape (via
+  either of those scripts directly, or via `run_pipeline.py` /
+  `run_pipeline_parallel.py`, which call the same functions) gets
+  `official_barrio` automatically — no separate step needed.
+- **To backfill already-scraped data** (existing entries from before this
+  field existed), run the module directly:
+  ```bash
+  conda run -n cars python src/barrio_lookup.py
+  ```
+  Adds/updates `official_barrio` on every entry with coordinates in both
+  `output/listings.json` and `output/fincaraiz_listings.json`, in place.
+- The shapefile is read once and cached at **import time** (not on first
+  call) specifically so it's already loaded before
+  `run_pipeline_parallel.py` starts any of its concurrent browser threads —
+  see the module's docstring for the full reasoning.
 
 ## Combined pipeline (`run_pipeline.py`)
 

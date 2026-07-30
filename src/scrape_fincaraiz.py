@@ -23,6 +23,7 @@ import time
 import requests
 from bs4 import BeautifulSoup
 
+from barrio_lookup import lookup_official_barrio
 from paths import FINCARAIZ_LISTINGS_PATH, write_json
 from stealth_browser import USER_AGENTS
 
@@ -110,6 +111,7 @@ def _normalize_listing(prop: dict) -> dict:
         "codigo": prop.get("code"),
         "latitude": prop.get("latitude"),
         "longitude": prop.get("longitude"),
+        "official_barrio": lookup_official_barrio(prop.get("latitude"), prop.get("longitude")),
         "total_price": _to_number(total_price),
         "price_per_m2": round(total_price / area_m2, 2) if total_price and area_m2 else None,
     }
