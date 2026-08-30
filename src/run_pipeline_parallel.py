@@ -20,11 +20,12 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 
 from paths import (
     CHROME_PROFILE_DIR,
-    FINCARAIZ_LISTINGS_PATH,
-    LISTINGS_PATH,
-    MERGED_LISTINGS_PATH,
+    fincaraiz_listings_path,
+    listings_path,
+    merged_listings_path,
     write_json,
 )
+from regions import DEFAULT_REGION, REGIONS, get_region
 from run_pipeline import ListingFilters
 from scrape_fincaraiz import scrape_listings as scrape_fincaraiz_listings
 from scrape_listing_details import enrich_listing
@@ -36,6 +37,7 @@ def _enrich_chunk(
     chunk_index: int,
     chunk: list[dict],
     headless: bool,
+    do_barrio_lookup: bool,
     delay_between_listings: tuple[float, float] = (0.5, 2.0),
 ) -> dict:
     """Enrich one chunk with its own isolated browser + profile dir.
@@ -55,7 +57,7 @@ def _enrich_chunk(
             for i, entry in enumerate(chunk, 1):
                 url = entry.get("url")
                 try:
-                    enrich_listing(browser, entry)
+                    enrich_listing(browser, entry, do_barrio_lookup)
                 except Exception as exc:
                     failed.append((url, str(exc)))
                     print(f"[{label}] [{i}/{len(chunk)}] FAILED {url}: {exc!r}")
@@ -97,6 +99,7 @@ def _run_enrichment_fanout(
     chunk_size: int,
     max_concurrent_browsers: int,
     headless: bool,
+    do_barrio_lookup: bool,
 ) -> list[dict]:
     chunks = [candidates[i : i + chunk_size] for i in range(0, len(candidates), chunk_size)]
     if not chunks:
@@ -112,7 +115,8 @@ def _run_enrichment_fanout(
     results = []
     with ThreadPoolExecutor(max_workers=worker_count) as executor:
         futures = [
-            executor.submit(_enrich_chunk, i, chunk, headless) for i, chunk in enumerate(chunks)
+            executor.submit(_enrich_chunk, i, chunk, headless, do_barrio_lookup)
+            for i, chunk in enumerate(chunks)
         ]
         for future in as_completed(futures):
             results.append(future.result())
@@ -127,20 +131,31 @@ def run_pipeline_parallel(
     enrich_headless: bool = True,
     chunk_size: int = 25,
     max_concurrent_browsers: int = 4,
+    region: str = DEFAULT_REGION,
 ) -> list[dict]:
-    print("=== 1/3: scraping metrocuadrado + fincaraiz concurrently ===")
+    mc_path = listings_path(region)
+    fr_path = fincaraiz_listings_path(region)
+    merged_path = merged_listings_path(region)
+    do_barrio_lookup = get_region(region).barrio_lookup
+
+    print(f"=== 1/3: scraping metrocuadrado + fincaraiz concurrently (region={region}) ===")
     with ThreadPoolExecutor(max_workers=2) as executor:
         mc_future = executor.submit(
-            scrape_metrocuadrado_listings, max_pages=metrocuadrado_pages, headless=headless
+            scrape_metrocuadrado_listings,
+            max_pages=metrocuadrado_pages,
+            headless=headless,
+            region=region,
         )
-        fr_future = executor.submit(scrape_fincaraiz_listings, max_pages=fincaraiz_pages)
+        fr_future = executor.submit(
+            scrape_fincaraiz_listings, max_pages=fincaraiz_pages, region=region
+        )
 
         metrocuadrado_listings = mc_future.result()
-        write_json(LISTINGS_PATH, metrocuadrado_listings)
+        write_json(mc_path, metrocuadrado_listings)
         print(f"  -> {len(metrocuadrado_listings)} metrocuadrado listings saved")
 
         fincaraiz_listings = fr_future.result()
-        write_json(FINCARAIZ_LISTINGS_PATH, fincaraiz_listings)
+        write_json(fr_path, fincaraiz_listings)
         print(f"  -> {len(fincaraiz_listings)} fincaraiz listings saved")
 
     print("=== 2/3: selecting + enriching metrocuadrado candidates (fanned out) ===")
@@ -154,6 +169,7 @@ def run_pipeline_parallel(
         chunk_size=chunk_size,
         max_concurrent_browsers=max_concurrent_browsers,
         headless=enrich_headless,
+        do_barrio_lookup=do_barrio_lookup,
     )
     total_ok = sum(r["succeeded"] for r in chunk_results)
     total_failed = sum(len(r["failed"]) for r in chunk_results)
@@ -162,7 +178,7 @@ def run_pipeline_parallel(
         f"  -> enrichment done: {total_ok} succeeded, {total_failed} failed"
         + (f", chunk(s) aborted early: {aborted}" if aborted else "")
     )
-    write_json(LISTINGS_PATH, metrocuadrado_listings)
+    write_json(mc_path, metrocuadrado_listings)
 
     print("=== 3/3: merging ===")
     metrocuadrado_final = [
@@ -177,10 +193,10 @@ def run_pipeline_parallel(
         listing["source"] = "fincaraiz"
 
     merged = metrocuadrado_final + fincaraiz_final
-    write_json(MERGED_LISTINGS_PATH, merged)
+    write_json(merged_path, merged)
     print(
         f"  -> {len(metrocuadrado_final)} metrocuadrado + {len(fincaraiz_final)} fincaraiz "
-        f"= {len(merged)} listings saved to {MERGED_LISTINGS_PATH.name}"
+        f"= {len(merged)} listings saved to {merged_path}"
     )
     return merged
 
@@ -223,6 +239,12 @@ def _parse_args() -> argparse.Namespace:
         default=4,
         help="Max enrichment browsers running at once (default: 4).",
     )
+    parser.add_argument(
+        "--region",
+        choices=sorted(REGIONS),
+        default=DEFAULT_REGION,
+        help=f"Which region to scrape (default: {DEFAULT_REGION}).",
+    )
     args = parser.parse_args()
 
     if args.chunk_size < 1:
@@ -253,4 +275,5 @@ if __name__ == "__main__":
         enrich_headless=args.enrich_headless,
         chunk_size=args.chunk_size,
         max_concurrent_browsers=args.max_concurrent_browsers,
+        region=args.region,
     )

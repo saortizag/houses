@@ -27,7 +27,8 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 
 from barrio_lookup import lookup_official_barrio
-from paths import LISTINGS_PATH, write_json
+from paths import listings_path, write_json
+from regions import DEFAULT_REGION, REGIONS, get_region
 from stealth_browser import StealthBrowser
 
 NETWORK_ENDPOINT = "rest-selector-option/selector/locations/points"
@@ -96,7 +97,9 @@ def _settle_page(driver, scroll_steps: int = 8, step_pause: float = 0.5) -> None
         time.sleep(step_pause)
 
 
-def enrich_listing(browser: StealthBrowser, entry: dict) -> dict:
+def enrich_listing(
+    browser: StealthBrowser, entry: dict, do_barrio_lookup: bool = True
+) -> dict:
     driver = browser.driver
     browser.get(entry["url"])
     _settle_page(driver)
@@ -110,7 +113,9 @@ def enrich_listing(browser: StealthBrowser, entry: dict) -> dict:
     entry["codigo"] = codigo
     entry["latitude"] = latitude
     entry["longitude"] = longitude
-    entry["official_barrio"] = lookup_official_barrio(latitude, longitude)
+    entry["official_barrio"] = (
+        lookup_official_barrio(latitude, longitude) if do_barrio_lookup else None
+    )
     entry["nearby_points"] = points
 
     price = entry.get("price")
@@ -129,25 +134,28 @@ def enrich_listing(browser: StealthBrowser, entry: dict) -> dict:
 def enrich_listings(
     urls: list[str],
     headless: bool = False,
+    region: str = DEFAULT_REGION,
     delay_between_listings: tuple[float, float] = (0.5, 2.0),
 ) -> list[dict]:
-    listings = json.loads(LISTINGS_PATH.read_text(encoding="utf-8"))
+    path = listings_path(region)
+    do_barrio_lookup = get_region(region).barrio_lookup
+    listings = json.loads(path.read_text(encoding="utf-8"))
     by_url = {item["url"]: item for item in listings}
 
     missing = [url for url in urls if url not in by_url]
     if missing:
-        raise ValueError(f"URLs not found in {LISTINGS_PATH.name}: {missing}")
+        raise ValueError(f"URLs not found in {path}: {missing}")
 
     enriched = []
     with StealthBrowser(capture_network=True, headless=headless) as browser:
         for i, url in enumerate(urls, 1):
             print(f"[{i}/{len(urls)}] {url}")
-            enriched.append(enrich_listing(browser, by_url[url]))
+            enriched.append(enrich_listing(browser, by_url[url], do_barrio_lookup))
             if i < len(urls):
                 time.sleep(random.uniform(*delay_between_listings))
 
-    write_json(LISTINGS_PATH, listings)
-    print(f"Updated {len(urls)} listings in {LISTINGS_PATH}")
+    write_json(path, listings)
+    print(f"Updated {len(urls)} listings in {path}")
     return enriched
 
 
@@ -166,6 +174,12 @@ def _parse_args() -> argparse.Namespace:
         action="store_true",
         help="Run the browser headless (default: headed/visible).",
     )
+    parser.add_argument(
+        "--region",
+        choices=sorted(REGIONS),
+        default=DEFAULT_REGION,
+        help=f"Which region's listings.json to enrich (default: {DEFAULT_REGION}).",
+    )
     return parser.parse_args()
 
 
@@ -173,7 +187,7 @@ if __name__ == "__main__":
     args = _parse_args()
     cli_urls = args.urls
     if not cli_urls:
-        sample = json.loads(LISTINGS_PATH.read_text(encoding="utf-8"))[:3]
+        sample = json.loads(listings_path(args.region).read_text(encoding="utf-8"))[:3]
         cli_urls = [item["url"] for item in sample]
         print(f"No URLs passed on the command line; using first {len(cli_urls)} listings as a sample.")
-    enrich_listings(cli_urls, headless=args.headless)
+    enrich_listings(cli_urls, headless=args.headless, region=args.region)
