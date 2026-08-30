@@ -16,7 +16,13 @@ import argparse
 import json
 from dataclasses import dataclass
 
-from paths import FINCARAIZ_LISTINGS_PATH, LISTINGS_PATH, MERGED_LISTINGS_PATH, write_json
+from paths import (
+    fincaraiz_listings_path,
+    listings_path,
+    merged_listings_path,
+    write_json,
+)
+from regions import DEFAULT_REGION, REGIONS
 from scrape_fincaraiz import scrape_listings as scrape_fincaraiz_listings
 from scrape_listing_details import enrich_listings
 from scrape_metrocuadrado import scrape_listings as scrape_metrocuadrado_listings
@@ -57,13 +63,18 @@ def run_pipeline(
     metrocuadrado_pages: int = 30,
     fincaraiz_pages: int = 10,
     headless: bool = False,
+    region: str = DEFAULT_REGION,
 ) -> list[dict]:
-    print(f"=== 1/4: scraping metrocuadrado ({metrocuadrado_pages} pages) ===")
+    mc_path = listings_path(region)
+    fr_path = fincaraiz_listings_path(region)
+    merged_path = merged_listings_path(region)
+
+    print(f"=== 1/4: scraping metrocuadrado ({metrocuadrado_pages} pages, region={region}) ===")
     metrocuadrado_listings = scrape_metrocuadrado_listings(
-        max_pages=metrocuadrado_pages, headless=headless
+        max_pages=metrocuadrado_pages, headless=headless, region=region
     )
-    write_json(LISTINGS_PATH, metrocuadrado_listings)
-    print(f"  -> {len(metrocuadrado_listings)} listings saved to {LISTINGS_PATH.name}")
+    write_json(mc_path, metrocuadrado_listings)
+    print(f"  -> {len(metrocuadrado_listings)} listings saved to {mc_path}")
 
     print("=== 2/4: selecting + enriching metrocuadrado candidates ===")
     candidate_urls = [
@@ -76,15 +87,15 @@ def run_pipeline(
         "(by listed price) and will be enriched"
     )
     if candidate_urls:
-        enrich_listings(candidate_urls, headless=headless)
+        enrich_listings(candidate_urls, headless=headless, region=region)
 
-    print(f"=== 3/4: scraping fincaraiz ({fincaraiz_pages} pages) ===")
-    fincaraiz_listings = scrape_fincaraiz_listings(max_pages=fincaraiz_pages)
-    write_json(FINCARAIZ_LISTINGS_PATH, fincaraiz_listings)
-    print(f"  -> {len(fincaraiz_listings)} listings saved to {FINCARAIZ_LISTINGS_PATH.name}")
+    print(f"=== 3/4: scraping fincaraiz ({fincaraiz_pages} pages, region={region}) ===")
+    fincaraiz_listings = scrape_fincaraiz_listings(max_pages=fincaraiz_pages, region=region)
+    write_json(fr_path, fincaraiz_listings)
+    print(f"  -> {len(fincaraiz_listings)} listings saved to {fr_path}")
 
     print("=== 4/4: merging ===")
-    enriched_metrocuadrado = json.loads(LISTINGS_PATH.read_text(encoding="utf-8"))
+    enriched_metrocuadrado = json.loads(mc_path.read_text(encoding="utf-8"))
     metrocuadrado_final = [
         listing
         for listing in enriched_metrocuadrado
@@ -99,10 +110,10 @@ def run_pipeline(
         listing["source"] = "fincaraiz"
 
     merged = metrocuadrado_final + fincaraiz_final
-    write_json(MERGED_LISTINGS_PATH, merged)
+    write_json(merged_path, merged)
     print(
         f"  -> {len(metrocuadrado_final)} metrocuadrado + {len(fincaraiz_final)} fincaraiz "
-        f"= {len(merged)} listings saved to {MERGED_LISTINGS_PATH.name}"
+        f"= {len(merged)} listings saved to {merged_path}"
     )
     return merged
 
@@ -122,6 +133,12 @@ def _parse_args() -> argparse.Namespace:
     parser.add_argument("--metrocuadrado-pages", type=int, default=30)
     parser.add_argument("--fincaraiz-pages", type=int, default=10)
     parser.add_argument("--headless", action="store_true", help="Run metrocuadrado's browser headless.")
+    parser.add_argument(
+        "--region",
+        choices=sorted(REGIONS),
+        default=DEFAULT_REGION,
+        help=f"Which region to scrape (default: {DEFAULT_REGION}).",
+    )
     return parser.parse_args()
 
 
@@ -142,4 +159,5 @@ if __name__ == "__main__":
         metrocuadrado_pages=args.metrocuadrado_pages,
         fincaraiz_pages=args.fincaraiz_pages,
         headless=args.headless,
+        region=args.region,
     )

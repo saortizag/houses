@@ -10,9 +10,24 @@ CHROME_PROFILE_DIR = PROJECT_ROOT / ".chrome_profile"
 INPUT_DIR = PROJECT_ROOT / "input"
 SECTOR_SHAPEFILE_PATH = INPUT_DIR / "sector.shp.0425" / "SECTOR.shp"
 
-LISTINGS_PATH = OUTPUT_DIR / "listings.json"
-FINCARAIZ_LISTINGS_PATH = OUTPUT_DIR / "fincaraiz_listings.json"
-MERGED_LISTINGS_PATH = OUTPUT_DIR / "merged_listings.json"
+
+def region_output_dir(region: str) -> Path:
+    """Per-region output directory, e.g. ``output/bogota/`` — created on first
+    write by ``write_json``. Keeping each region's files apart means switching
+    regions never overwrites another region's data."""
+    return OUTPUT_DIR / region
+
+
+def listings_path(region: str) -> Path:
+    return region_output_dir(region) / "listings.json"
+
+
+def fincaraiz_listings_path(region: str) -> Path:
+    return region_output_dir(region) / "fincaraiz_listings.json"
+
+
+def merged_listings_path(region: str) -> Path:
+    return region_output_dir(region) / "merged_listings.json"
 
 
 def write_json(path: Path, data: list[dict]) -> None:

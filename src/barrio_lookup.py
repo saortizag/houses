@@ -33,7 +33,13 @@ import shapefile  # pyshp
 from shapely.geometry import Point, shape
 from shapely.prepared import prep
 
-from paths import FINCARAIZ_LISTINGS_PATH, LISTINGS_PATH, SECTOR_SHAPEFILE_PATH, write_json
+from paths import (
+    SECTOR_SHAPEFILE_PATH,
+    fincaraiz_listings_path,
+    listings_path,
+    write_json,
+)
+from regions import BOGOTA
 
 
 def _load_sectors() -> list[tuple[str, tuple[float, float, float, float], object]]:
@@ -93,9 +99,15 @@ def enrich_json_file(path: Path) -> tuple[int, int]:
 
 
 if __name__ == "__main__":
-    for target in (LISTINGS_PATH, FINCARAIZ_LISTINGS_PATH):
+    # Only Bogotá has a cadastral shapefile, so only its output files get
+    # backfilled (chia-cajica listings carry official_barrio=None by design).
+    targets = (
+        listings_path(BOGOTA.key),
+        fincaraiz_listings_path(BOGOTA.key),
+    )
+    for target in targets:
         if not target.exists():
-            print(f"Skipping {target.name} (not found)")
+            print(f"Skipping {target} (not found)")
             continue
         matched, checked = enrich_json_file(target)
-        print(f"{target.name}: {matched}/{checked} listings with coordinates matched an official barrio")
+        print(f"{target}: {matched}/{checked} listings with coordinates matched an official barrio")

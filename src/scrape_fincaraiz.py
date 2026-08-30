@@ -24,10 +24,10 @@ import requests
 from bs4 import BeautifulSoup
 
 from barrio_lookup import lookup_official_barrio
-from paths import FINCARAIZ_LISTINGS_PATH, write_json
+from paths import fincaraiz_listings_path, write_json
+from regions import DEFAULT_REGION, REGIONS, get_region
 from stealth_browser import USER_AGENTS
 
-BASE_PATH = "/arriendo/casas-y-apartamentos/bogota/bogota-dc"
 SITE_ROOT = "https://www.fincaraiz.com.co"
 
 # `ordenListado` controls the site's own sort order (its "order-filter"
@@ -43,13 +43,21 @@ HEADERS = {
     "Accept-Language": "es-CO,es;q=0.9,en;q=0.8",
 }
 
-BARRIO_RE = re.compile(r"en (?:arriendo|venta) en (.+?),\s*bogot", re.IGNORECASE)
+
+def _barrio_re(region: str) -> re.Pattern:
+    """Regex that pulls {barrio} out of a listing title of the form
+    "... en arriendo en {barrio}, {city}" — where {city} is region-specific
+    ("Bogotá" vs "Chía"/"Cajicá"). Titles with no comma before the city
+    (e.g. "Casa en Arriendo en Cajicá") simply don't match -> barrio is None.
+    """
+    city = get_region(region).barrio_city_re
+    return re.compile(rf"en (?:arriendo|venta) en (.+?),\s*(?:{city})", re.IGNORECASE)
 
 
-def _page_url(page_num: int) -> str:
+def _page_url(path: str, page_num: int) -> str:
     if page_num == 1:
-        return f"{SITE_ROOT}{BASE_PATH}?{QUERY}"
-    return f"{SITE_ROOT}{BASE_PATH}/pagina{page_num}?{QUERY}"
+        return f"{SITE_ROOT}{path}?{QUERY}"
+    return f"{SITE_ROOT}{path}/pagina{page_num}?{QUERY}"
 
 
 def _to_number(value) -> float | None:
@@ -63,18 +71,18 @@ def _to_number(value) -> float | None:
     return float(match.group(0).replace(".", "").replace(",", "."))
 
 
-def _extract_barrio(prop: dict) -> str | None:
+def _extract_barrio(prop: dict, barrio_re: re.Pattern) -> str | None:
     for text in (prop.get("title"), prop.get("description")):
         if not text:
             continue
-        match = BARRIO_RE.search(text)
+        match = barrio_re.search(text)
         if match:
             return match.group(1).strip().title()
     return None
 
 
-def _fetch_search_fast(page_num: int, session: requests.Session) -> dict:
-    url = _page_url(page_num)
+def _fetch_search_fast(path: str, page_num: int, session: requests.Session) -> dict:
+    url = _page_url(path, page_num)
     response = session.get(url, headers={**HEADERS, "User-Agent": random.choice(USER_AGENTS)})
     response.raise_for_status()
 
@@ -87,7 +95,7 @@ def _fetch_search_fast(page_num: int, session: requests.Session) -> dict:
     return data["props"]["pageProps"]["fetchResult"]["searchFast"]
 
 
-def _normalize_listing(prop: dict) -> dict:
+def _normalize_listing(prop: dict, barrio_re: re.Pattern, do_barrio_lookup: bool) -> dict:
     price = prop.get("price") or {}
     common_expenses = prop.get("commonExpenses") or {}
     amount = price.get("amount")
@@ -105,41 +113,58 @@ def _normalize_listing(prop: dict) -> dict:
         "area_m2": area_m2,
         "bathrooms": prop.get("bathrooms"),
         "parking_spots": prop.get("garage"),
-        "barrio": _extract_barrio(prop),
+        "barrio": _extract_barrio(prop, barrio_re),
         "administracion": _to_number(admin),
         "estrato": prop.get("stratum"),
         "codigo": prop.get("code"),
         "latitude": prop.get("latitude"),
         "longitude": prop.get("longitude"),
-        "official_barrio": lookup_official_barrio(prop.get("latitude"), prop.get("longitude")),
+        "official_barrio": (
+            lookup_official_barrio(prop.get("latitude"), prop.get("longitude"))
+            if do_barrio_lookup
+            else None
+        ),
         "total_price": _to_number(total_price),
         "price_per_m2": round(total_price / area_m2, 2) if total_price and area_m2 else None,
     }
 
 
 def scrape_listings(
-    max_pages: int = 10, delay_between_pages: tuple[float, float] = (1.0, 2.5)
+    max_pages: int = 10,
+    region: str = DEFAULT_REGION,
+    delay_between_pages: tuple[float, float] = (1.0, 2.5),
 ) -> list[dict]:
+    """Scrape fincaraiz search results for every municipality in `region`
+    (Bogotá is one; ``chia-cajica`` is two, concatenated then deduped by
+    codigo). `max_pages` is applied per municipality.
+    """
+    region_obj = get_region(region)
+    barrio_re = _barrio_re(region)
     all_listings = []
     with requests.Session() as session:
-        for page_num in range(1, max_pages + 1):
-            search_fast = _fetch_search_fast(page_num, session)
-            paginator = search_fast["paginatorInfo"]
-            last_page = paginator["lastPage"]
+        for muni in region_obj.municipalities:
+            print(f"=== {muni.name} ===")
+            for page_num in range(1, max_pages + 1):
+                search_fast = _fetch_search_fast(muni.fincaraiz_path, page_num, session)
+                paginator = search_fast["paginatorInfo"]
+                last_page = paginator["lastPage"]
 
-            page_listings = [_normalize_listing(prop) for prop in search_fast["data"]]
-            print(
-                f"Page {page_num}/{min(max_pages, last_page)} "
-                f"(site has {last_page} pages, {paginator['total']} listings total) "
-                f"-> {len(page_listings)} listings"
-            )
-            all_listings.extend(page_listings)
+                page_listings = [
+                    _normalize_listing(prop, barrio_re, region_obj.barrio_lookup)
+                    for prop in search_fast["data"]
+                ]
+                print(
+                    f"[{muni.name}] page {page_num}/{min(max_pages, last_page)} "
+                    f"(site has {last_page} pages, {paginator['total']} listings total) "
+                    f"-> {len(page_listings)} listings"
+                )
+                all_listings.extend(page_listings)
 
-            if page_num >= last_page:
-                print("Reached the last available page.")
-                break
-            if page_num < max_pages:
-                time.sleep(random.uniform(*delay_between_pages))
+                if page_num >= last_page:
+                    print(f"[{muni.name}] reached the last available page.")
+                    break
+                if page_num < max_pages:
+                    time.sleep(random.uniform(*delay_between_pages))
 
     deduped = list({item["codigo"]: item for item in all_listings}.values())
     if len(deduped) != len(all_listings):
@@ -158,13 +183,21 @@ def _parse_args() -> argparse.Namespace:
         "--max-pages",
         type=int,
         default=10,
-        help="Number of search-result pages to scrape, 21 listings/page (default: 10).",
+        help="Number of search-result pages to scrape per municipality, "
+        "21 listings/page (default: 10).",
+    )
+    parser.add_argument(
+        "--region",
+        choices=sorted(REGIONS),
+        default=DEFAULT_REGION,
+        help=f"Which region to scrape (default: {DEFAULT_REGION}).",
     )
     return parser.parse_args()
 
 
 if __name__ == "__main__":
     args = _parse_args()
-    listings = scrape_listings(max_pages=args.max_pages)
-    write_json(FINCARAIZ_LISTINGS_PATH, listings)
-    print(f"Saved {len(listings)} listings to {FINCARAIZ_LISTINGS_PATH}")
+    listings = scrape_listings(max_pages=args.max_pages, region=args.region)
+    out_path = fincaraiz_listings_path(args.region)
+    write_json(out_path, listings)
+    print(f"Saved {len(listings)} listings to {out_path}")
